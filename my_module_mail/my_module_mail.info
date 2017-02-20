@@ -1,0 +1,4 @@
+name = Samara Mail
+description = Special handling fo emails for the Samara
+core = 7.x
+package = Samara Custom Modules

@@ -1,0 +1,95 @@
+<?php
+
+/**
+ * @file
+ * Main hooks for my_module_species module.
+ */
+
+module_load_include('inc', 'my_module_species', 'includes/functions');
+
+/**
+ * Implements hook_permission().
+ */
+function my_module_species_permission() {
+  return array(
+    'import species detection nodes' => array(
+      'title' => t('Import species detection nodes'),
+      'description' => t('Upload a CSV file to import species detection nodes.'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function my_module_species_menu() {
+  $items['species-detection/import'] = array(
+    'title'            => 'Import species detection nodes',
+    'description'      => 'Import content from a <abbr title="Comma Separated Values">CSV</abbr> file.',
+    'page callback'    => 'drupal_get_form',
+    'page arguments'   => array('my_module_species_csv_node_import_form'),
+    'access callback'  => 'user_access',
+    'access arguments' => array('import species detection nodes'),
+    'type'             => MENU_NORMAL_ITEM,
+    'file'             => 'includes/pages.inc',
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function my_module_species_form_species_detection_node_form_alter(&$form, &$form_state, $form_id) {
+  if (!empty($form['revision_information']) ) {
+    $form['revision_information']['#access'] = user_access("administer nodes");
+  }
+
+  if (!empty($form['field_organization_term'])) {
+    $term_ids = array_keys($form['field_organization_term'][LANGUAGE_NONE]['#options']);
+    foreach ($term_ids as $term_id) {
+      if ($term_id > 0 && _my_module_species_get_number_of_data_collectors_per_term($term_id) == 0) {
+        unset($form['field_organization_term'][LANGUAGE_NONE]['#options'][$term_id]);
+      }
+    }
+  }
+
+  if (!empty($form['field_reference_city']) && $form['field_reference_city'][LANGUAGE_NONE]['#default_value'] == '') {
+    $form['field_reference_city'][LANGUAGE_NONE]['#default_value'] = '_none';
+  }
+  if (!empty($form['field_presence_absence']) && $form['field_presence_absence'][LANGUAGE_NONE]['#default_value'] == '') {
+    $form['field_presence_absence'][LANGUAGE_NONE]['#default_value'] = '_none';
+  }
+  if (!empty($form['field_data_collector']) && count($form['field_data_collector'][LANGUAGE_NONE]['#default_value']) > 0) {
+    $data_collector_nid = $form['field_data_collector'][LANGUAGE_NONE]['#default_value'][0];
+    $data_collector = node_load($data_collector_nid);
+    if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+      if ($data_collector === FALSE || count($data_collector->field_organization_term) === 0 || $data_collector->field_organization_term[LANGUAGE_NONE][0]['tid'] !== $form_state['build_info']['args'][0]->field_organization_term[LANGUAGE_NONE][0]['tid']) {
+        unset($form['field_data_collector'][LANGUAGE_NONE]['#default_value']); 
+      }
+    } elseif (!empty($data_collector->field_organization_term[LANGUAGE_NONE][0]['tid'])) {
+      $form[field_organization_term][LANGUAGE_NONE]['#default_value'] = $data_collector->field_organization_term[LANGUAGE_NONE][0]['tid'];
+      $dataCollectors = taxonomy_select_nodes($data_collector->field_organization_term[LANGUAGE_NONE][0]['tid']);
+      $options = array();
+      foreach($dataCollectors as $dataCollectorNid) {
+        $dataCollector = node_load($dataCollectorNid);
+        $options[$dataCollectorNid] = $dataCollector->title;
+      }
+      $form['field_data_collector'][LANGUAGE_NONE]['#options'] = $options;
+    }
+    
+  }
+}
+
+function _my_module_species_get_number_of_data_collectors_per_term($tid) {
+  $tids = array($tid);
+
+  $query = db_select('taxonomy_index', 't');
+  $query->condition('tid', $tids, 'IN');
+  $query->join('node', 'n', 't.nid = n.nid');
+  $query->condition('n.status', 1, '=');
+  $query->condition('n.type', 'data_collector', '=');
+
+  $count = $query->countQuery()->execute()->fetchField();
+  return $count;
+}

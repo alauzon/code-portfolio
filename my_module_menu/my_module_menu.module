@@ -1,0 +1,92 @@
+<?php
+
+/**
+ * @file
+ * Generate and handle special menus for the Samara project.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function my_module_menu_menu() {
+  $items = array();
+  // This menu item is just a menu block.
+  $items['admin/cities'] = array(
+    'title' => 'Cities',
+    'description' => 'Switch City',
+    'position' => 'right',
+    'weight' => 2,
+    'page callback' => 'system_admin_menu_block_page',
+    'access arguments' => array('access domain navigation'),
+    'file' => 'system.admin.inc',
+    'file path' => drupal_get_path('module', 'system'),
+  );
+
+  $domains_to_generate = domain_domains(TRUE);
+  $base_subdomain = variable_get('my_module_menu_base_subdomain', 'example.com');
+
+  $menus = array(
+    array(
+      'menu_name' => 'my_module_cities',
+      'title' => 'Cities',
+      'description' => 'Switching from city to city',
+    ),
+  );
+
+  $links = array();
+  $weight = -20;
+  // A menu item is generated under the admin/cities menu item for each defined
+  // domain.
+  foreach ($domains_to_generate as $domain) {
+    $city_subdomain = str_replace('example.com', '', $domain['subdomain']);
+    $path = drupal_encode_path('admin/cities/' . str_replace(' ', '-', $domain['sitename']));
+    $items[$path] = array(
+      'title' => $domain['sitename'],
+      'page callback' => 'drupal_goto',
+      'page arguments' => array($domain['scheme'] . '://' . $city_subdomain . $base_subdomain),
+      'access arguments' => array('access domain navigation'),
+      'weight' => $weight++,
+    );
+  }
+
+  return $items;
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function my_module_menu_block_info() {
+  $blocks['city_switcher'] = array(
+    'info' => t('Cities'),
+    'cache' => DRUPAL_NO_CACHE,
+  );
+
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function my_module_menu_block_view($delta = '') {
+  switch ($delta) {
+    case 'city_switcher':
+      // Generate a link to every defined domain.
+      $block = array();
+
+      $domains_to_generate = domain_domains(TRUE);
+      $base_subdomain = variable_get('my_module_menu_base_subdomain', 'example.com');
+
+      $links = '<ul class="nav">';
+      $weight = -20;
+      foreach ($domains_to_generate as $domain) {
+        $city_subdomain = str_replace('example.com', '', $domain['subdomain']);
+        $path = drupal_encode_path('admin/cities/' . str_replace(' ', '-', $domain['sitename']));
+        $links .= '<li><a href="' . $domain['scheme'] . '://' . $city_subdomain . $base_subdomain . '">' . $domain['sitename'] . '</a></li>';
+      }
+      $links .= '</ul>';
+      $block['subject'] = t('Cities');
+      $block['content'] = $links;
+      break;
+  }
+  return $block;
+}

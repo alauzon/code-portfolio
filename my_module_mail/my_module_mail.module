@@ -1,0 +1,22 @@
+<?php
+/*
+ * @file
+ * Hooks for mail.
+ */
+
+/**
+ * Implements hook_mail_alter().
+ */
+function my_module_mail_mail_alter(&$message) {
+  // Change the reply-to and sender to always be reception@example.com.
+  $message['from'] = 'reception@example.com';
+  if (isset($message['params']) &&
+      isset($message['params']['email']) &&
+      isset($message['params']['email']['from_address'])) {
+    $message['params']['email']['from_address'] = 'reception@example.com';
+    $message['params']['email']['from'] = 'UBIF Reception';
+  }
+  $message['headers']['Return-Path'] = 'reception@example.com';
+  $message['headers']['Sender'] = 'reception@example.com';
+  $message['headers']['From'] = 'UBIF Reception';
+}

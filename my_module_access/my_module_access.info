@@ -1,0 +1,9 @@
+name = Samara Access
+description = Defines and contrains special accesses for Samara
+core = 7.x
+package = Samara Custom Modules
+
+dependencies[] = domain
+dependencies[] = administerusersbyrole
+
+stylesheets[all][] = my_module_access.css

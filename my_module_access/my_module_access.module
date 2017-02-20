@@ -1,0 +1,243 @@
+<?php
+
+/**
+ * @file
+ * A small module that restricts access to edit users by domain affiliation.
+ */
+
+// Role definitions.
+define('MY_MODULE_ACCESS_ROLE_USER', 101458926);
+define('MY_MODULE_ACCESS_ROLE_CITY_MANAGER', 245799339);
+define('MY_MODULE_ACCESS_ROLE_POWER_MANAGER', 121353054);
+define('MY_MODULE_ACCESS_ROLE_ADMINISTRATOR', 30037204);
+
+/**
+ * Implements hook_menu_alter().
+ */
+function my_module_access_menu_alter(&$items) {
+  $items['user/%user']['access callback'] = '_my_module_access_check_access';
+  $items['user/%user']['access arguments'] = array(1, 'edit');
+  $items['user/%user/edit']['access callback'] = '_my_module_access_check_access';
+  $items['user/%user/edit']['access arguments'] = array(1, 'edit');
+  $items['user/%user/cancel']['access callback'] = '_my_module_access_check_access';
+  $items['user/%user/cancel']['access arguments'] = array(1, 'cancel');
+  $items['user/%user/cancel']['page callback'] = 'my_module_access_cancel_confirm_wrapper';
+  $items['user/%user/cancel']['page arguments'] = array(1);
+}
+
+/**
+ * Implements hook_permission().
+ */
+function my_module_access_permission() {
+  return array(
+    'edit users from all domains' => array(
+      'title' => t('Edit users from all Domains'),
+      'description' => t('Edit users from all Cities'),
+    ),
+  );
+}
+
+/**
+ * Access check for users over accounts depending on permissions and domains.
+ *
+ * @param string $account
+ *   The account to check.
+ * @param string $op
+ *   The operation to check ('edit' or 'cancel').
+ *
+ * @return bool
+ *   TRUE if the current user has the requested permission.
+ *
+ *   Access check for account edits and cancel operations according to
+ *   permissions and domain belonging to both current user and account.
+ *
+ *   This function is a layer over the _administerusersbyrole_check_access.
+ *
+ *   It checks if a user has administer access permission to an account
+ *   depending on the following rules in this order:
+ *     - always allow access to the user with uid 1 (master admin)
+ *     - always allow access to users on their own account,
+ *     - disallow access to accounts with uid 0 (anonymous) or 1 (master admin),
+ *     - disallow access to users without the admin role to accounts with the
+ *       admin role,
+ *     - allow access to users with the 'edit users from all domains'
+ *       permission,
+ *     - allow access to users that can administer the said account role
+ *       according to the permissions defined by the Administer User by Role
+ *       module and that belongs to the my_modulee domain as the account.
+ */
+function _my_module_access_check_access($account, $op) {
+  global $user;
+
+  // Always allow access to the user with uid 1 (master admin) and
+  // always allow access to users on their own account.
+  if ($user->uid == 1 || $user->uid == $account->uid) {
+    return TRUE;
+  }
+
+  // Disallow access to account with uid 0 (anonymous) or 1 (master admin)
+  if ($account->uid <= 1) {
+    return FALSE;
+  }
+
+  $admin_rid = variable_get('user_admin_role', 0);
+  // Disallow access to users without the admin role to accounts with the admin
+  // role.
+  if (in_array($admin_rid, array_keys($account->roles)) &&
+      !in_array($admin_rid, array_keys($user->roles))) {
+    return FALSE;
+  }
+
+  // Allow access to users with the 'edit users from all domains' permission.
+  if (user_access('edit users from all domains') && user_access('administer users')) {
+    return TRUE;
+  }
+  else {
+    $user_domains = domain_get_user_domains($user);
+    $account_domains = domain_get_user_domains($account);
+    // Users that can administer the said account role according to the
+    // permissions defined by the Administer User by Role module.
+    if (_administerusersbyrole_check_access($account, $op) &&
+        is_array($account_domains) && is_array($user_domains)) {
+      $account_keys = array_keys($account_domains);
+      $user_keys = array_keys($user_domains);
+
+      $access = FALSE;
+      // And belongs to the my_modulee domain as the account can access this account.
+      foreach ($account_keys as $domain_id) {
+        if (in_array($domain_id, $user_keys)) {
+          return TRUE;
+        }
+      }
+    }
+  }
+
+  // Else disallow access to user.
+  return FALSE;
+}
+
+/**
+ * Wrapper function for the cancel confirm form.
+ *
+ * It first elevates to 'administer users' permission if required.
+ */
+function my_module_access_cancel_confirm_wrapper($account) {
+  // If we are granting permissions, elevate to 'administer users'.
+  if (_my_module_access_check_access($account, 'cancel')) {
+    _administerusersbyrole_temp_administer_users();
+  }
+
+  return drupal_get_form('user_cancel_confirm_form', $account);
+}
+
+/**
+ * Implements hook_form_alter().
+ *
+ * This function makes sure to only display accessible roles to the current user
+ * on the roles selector.
+ */
+function my_module_access_form_alter(&$form, &$form_state, $form_id) {
+  global $user;
+  if ($form_id == 'user_register_form' || $form_id == 'user_profile_form') {
+    if (user_is_logged_in() && user_access('edit users with role ' . MY_MODULE_ACCESS_ROLE_USER)) {
+      // Display the roles selector.
+      $form['account']['roles']['#access'] = TRUE;
+      // Leave only the accessible options.
+      foreach ($form['account']['roles']['#options'] as $role_key => $role_name) {
+        if (!user_access('edit users with role ' . $role_key)) {
+          // Remove unaccessible role from the options.
+          unset($form['account']['roles']['#options'][$role_key]);
+        }
+      }
+    }
+  }
+  if ($form_id == 'views_form_admin_views_user_block_1' ||
+      $form_id == 'views_form_admin_views_user_block_2') {
+    if (isset($form['add_roles'])) {
+      // Leave only the accessible options.
+      foreach ($form['add_roles']['#options'] as $role_key => $role_name) {
+        if (!user_access('edit users with role ' . $role_key)) {
+          // Remove unaccessible role from the options.
+          unset($form['add_roles']['#options'][$role_key]);
+        }
+      }
+    }
+    if (isset($form['remove_roles'])) {
+      // Leave only the accessible options.
+      foreach ($form['remove_roles']['#options'] as $role_key => $role_name) {
+        if (!user_access('edit users with role ' . $role_key)) {
+          // Remove unaccessible role from the options.
+          unset($form['remove_roles']['#options'][$role_key]);
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Redirect to assigned domain if need user is in a non-assigned domain.
+ */
+function my_module_access_init() {
+  global $user;
+
+  if (user_access('access domain navigation') || drupal_is_cli()) {
+    return;
+  }
+  // Detect whether this request is for cron or site installation or xmlrpc
+  // request.
+  foreach (array('cron', 'install', 'xmlrpc') as $task) {
+    // Generate a path for the task.
+    $path = base_path() . "{$task}.php";
+    // See if we have a match.
+    if (substr(request_uri(), 0, strlen($path)) == $path) {
+      // Stops here.
+      return;
+    }
+  }
+
+  $user_domains = domain_get_user_domains($user);
+  $user_keys = array_keys($user_domains);
+  $current_domain = domain_get_domain();
+  $domain_id = $current_domain['domain_id'];
+  // Compare user domains with current domain and return if it macthes.
+  foreach ($user_keys as $user_domain_id) {
+    if ($domain_id == $user_domain_id) {
+      return;
+    }
+  }
+  // 
+  $first_user_domain = array_pop($user_domains);
+  $domains = domain_domains();
+  $domain = $domains[$first_user_domain];
+  $base_subdomain = variable_get('my_module_menu_base_subdomain', 'example.com');
+  $city_subdomain = str_replace($base_subdomain, '', $domain['subdomain']);
+  $path = $domain['scheme'] . '://' . $city_subdomain . $base_subdomain;
+
+  drupal_set_message(t('You have been redirected to an assigned City.'));
+  drupal_goto($path);
+
+}
+
+/**
+ * Implements hook_implements_alter().
+ */
+function my_module_access_module_implements_alter(&$implementations, $hook) {
+  if ($hook == 'menu_alter') {
+    // Move menu_alter() to the end of the list. module_implements()
+    // iterates through $implementations with a foreach loop which PHP iterates
+    // in the order that the items were added, so to move an item to the end of
+    // the array, we remove it and then add it.
+    $group = $implementations['my_module_access'];
+    unset($implementations['my_module_access']);
+    $implementations['my_module_access'] = $group;
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function my_module_access_form_data_collector_node_form_alter(&$form, &$form_state, $form_id) {
+  if (!empty($form['revision_information']) ) {
+    $form['revision_information']['#access'] = user_access("administer nodes");
+  }
+}

@@ -1,0 +1,4 @@
+name = "Samara Anonymous login"
+description = "Specify displayed pages when the sites are visited by anonymous users"
+package = Samara Custom Modules
+core = "7.x"

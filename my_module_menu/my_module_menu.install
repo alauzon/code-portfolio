@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Install functions.
+ */
+
+/**
+ * Initialize variables.
+ */
+function my_module_menu_install() {
+  variable_set('my_module_menu_base_subdomain', 'example.com');
+}

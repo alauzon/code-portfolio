@@ -1,0 +1,6 @@
+name = Samara Species
+description = Hooks and utils for the species detection content type
+core = 7.x
+package = Samara Custom Modules
+
+stylesheets[all][] = my_module_species.css

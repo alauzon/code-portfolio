@@ -1,0 +1,6 @@
+name = Samara Menu
+description = Hooks and utils for the menus
+core = 7.x
+package = Samara Custom Modules
+
+dependencies[] = domain

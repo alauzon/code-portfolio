@@ -1,0 +1,8 @@
+body.page-node-add-data-collector fieldset#edit-domain,
+body.node-type-data-collector fieldset#edit-domain,
+body.page-node-add-land-use fieldset#edit-domain,
+body.node-type-land-use fieldset#edit-domain,
+body.page-node-add-species-detection fieldset#edit-domain,
+body.node-type-species-detection fieldset#edit-domain {
+  display: none;
+}
