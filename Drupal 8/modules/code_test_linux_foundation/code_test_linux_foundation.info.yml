@@ -1,0 +1,5 @@
+name: Code Test Linux Foundation
+type: module
+description: Code test LINUX Foundation
+core: 8.x
+package: LINUX Foundation

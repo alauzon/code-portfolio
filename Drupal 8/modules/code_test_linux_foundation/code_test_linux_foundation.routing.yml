@@ -1,0 +1,7 @@
+code_test_linux_foundation.vote_form:
+  path: '/code_test/vote'
+  defaults:
+    _title: "Vote for Next Year's Event"
+    _form: '\Drupal\code_test_linux_foundation\Form\Vote'
+  requirements:
+    _permission: 'access content'

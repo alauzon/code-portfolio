@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Contains code_test_linux_foundation.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function code_test_linux_foundation_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the code_test_linux_foundation module.
+    case 'help.page.code_test_linux_foundation':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Code test LINUX Foundation') . '</p>';
+      return $output;
+
+    default:
+  }
+  return NULL;
+}

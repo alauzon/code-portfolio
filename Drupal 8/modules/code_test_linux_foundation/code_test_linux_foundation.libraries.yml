@@ -1,0 +1,5 @@
+vote:
+  version: VERSION
+  css:
+    theme:
+      css/vote.css: {}

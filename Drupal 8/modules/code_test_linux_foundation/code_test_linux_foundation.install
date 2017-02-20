@@ -1,0 +1,106 @@
+<?php
+
+/**
+ * @file
+ * Contains code_test_linux_foundation.install..
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function code_test_linux_foundation_schema() {
+  $schema['ctlf_city'] = array(
+    'description' => 'Stores Code Test LINUX Foundation Cities.',
+    'fields' => array(
+      'cid' => array(
+        'description' => 'Primary Key: unique ID for a City.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+      'city' => array(
+        'description' => 'City name',
+        'type' => 'varchar_ascii',
+        'length' => 80,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+    ),
+    'indexes' => array(
+      'city' => array('city'),
+    ),
+    'primary key' => array('cid'),
+  );
+  $schema['ctlf_event'] = array(
+    'description' => 'Stores Code Test LINUX Foundation Events.',
+    'fields' => array(
+      'eid' => array(
+        'description' => 'Primary Key: unique ID for an Event.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+      'event' => array(
+        'description' => 'Event name',
+        'type' => 'varchar_ascii',
+        'length' => 80,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+    ),
+    'indexes' => array(
+      'event' => array('event'),
+    ),
+    'primary key' => array('eid'),
+  );
+  $schema['ctlf_vote'] = array(
+    'description' => 'Stores Code Test LINUX Foundation Votes.',
+    'fields' => array(
+      'vid' => array(
+        'description' => 'Primary Key: unique ID for a City.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+      'eid' => array(
+        'description' => 'Event ID',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+      'cid' => array(
+        'description' => 'City ID',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+      'name' => array(
+        'description' => 'Name of the voter',
+        'type' => 'varchar_ascii',
+        'length' => 80,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'email' => array(
+        'description' => 'Email of the voter',
+        'type' => 'varchar_ascii',
+        'length' => 80,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'timestamp' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'The Unix timestamp of the Vote.',
+      ),
+    ),
+    'indexes' => array(
+      'eid' => array('eid'),
+      'cid' => array('cid'),
+      'both' => array('cid', 'eid'),
+    ),
+    'primary key' => array('vid'),
+  );
+  return $schema;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "drupal/code_test_linux_foundation",
+  "type": "drupal-module",
+  "description": "Code test LINUX Foundation",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/code_test_linux_foundation",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/code_test_linux_foundation",
+    "source": "http://cgit.drupalcode.org/code_test_linux_foundation"
+  },
+  "require": { }
+}

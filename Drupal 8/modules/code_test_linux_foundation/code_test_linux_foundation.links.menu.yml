@@ -1,0 +1,4 @@
+code_test_linux_foundation.vote_form:
+  title: 'Vote'
+  route_name: code_test_linux_foundation.vote_form
+  menu_name: main
