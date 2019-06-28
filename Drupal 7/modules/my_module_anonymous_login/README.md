@@ -1,1 +1,1 @@
-Redirect to the home page for anonymous users when going to disallowed pages.
+Only allow homepage and user related pages to anonymous users.
