@@ -6,8 +6,7 @@ does not work standalone because it depends on some content types.
 
 The basic work has been done by another developer than me.  I took it on in order to __improve or add__:
 * __the speed__ as it was taking too much time and was not able to complete the task of importing all the data by using:
-  * __the generator technique__ under
-  _Drupal 8/modules/sample_simpleview_feeds/src/Feeds/Fetcher/SimpleviewListingFetcher.php_ and
+  * __the generator technique__ at [SimpleviewListingFetcher.php](https://github.com/alauzon/code-portfolio/blob/master/Drupal%208/modules/sample_simpleview_feeds/src/Feeds/Fetcher/SimpleviewListingFetcher.php) and
   _Drupal 8/modules/sample_simpleview_feeds/src/Feeds/Fetcher/SimpleviewEventFetcher.php_.
   * __custom Drush commands__ under
   _Drupal 8/modules/sample_simpleview_feeds/src/Commands/ArtcSimpleviewFeedsCommands.php_ to make sure the jobs
