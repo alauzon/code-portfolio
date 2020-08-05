@@ -1,0 +1,9 @@
+name: Sample Quiz
+description: Code for the Quizzes.
+package: Sample
+
+dependencies:
+  - drupal:views
+
+type: module
+core: 8.x

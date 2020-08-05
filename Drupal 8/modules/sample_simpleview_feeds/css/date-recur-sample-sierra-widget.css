@@ -1,0 +1,7 @@
+.date-recur-sample-sierra-widget .date-recur-sample-sierra-widget-day div,
+.date-recur-sample-sierra-widget .date-recur-sample-sierra-widget-day label,
+.date-recur-sample-sierra-widget .date-recur-sample-sierra-widget-recurrences div,
+.date-recur-sample-sierra-widget .date-recur-sample-sierra-widget-recurrences label {
+  display: inline-block;
+  padding: 0 .25em;
+}

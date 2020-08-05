@@ -1,0 +1,5 @@
+services:
+  sample_simpleview_feeds.commands:
+    class: Drupal\sample_simpleview_feeds\Commands\SampleSimpleviewFeedsCommands
+    tags:
+      - { name: drush.command }

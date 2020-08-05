@@ -1,0 +1,13 @@
+date_recur_sample_widget.sierra_modal_form:
+  path: '/date-recur-sample/sierra-modal-form'
+  defaults:
+    _form: '\Drupal\sample_simpleview_feeds\Form\DateRecurSampleSierraModalForm'
+  requirements:
+    _permission: 'date_recur_sample use sierra form'
+
+date_recur_sample_widget.sierra_modal_occurrences_form:
+  path: '/date-recur-sample/sierra-modal-exclude-form'
+  defaults:
+    _form: '\Drupal\sample_simpleview_feeds\Form\DateRecurSampleSierraModalOccurrencesForm'
+  requirements:
+    _permission: 'date_recur_sample use sierra form'

@@ -1,0 +1,6 @@
+sample_simpleview_feeds_mock_api.feed:
+  path: '/sample_simpleview_feeds_mock_api/{feedName}'
+  defaults:
+    _controller: '\Drupal\sample_simpleview_feeds_mock_api\Controller\MockApiController::content'
+  requirements:
+    _permission: 'access content'

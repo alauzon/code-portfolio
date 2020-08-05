@@ -1,0 +1,151 @@
+uuid: 93f925a9-0fb0-403a-a6e8-54e45bfb6b06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.listing.body
+    - field.field.node.listing.field_address_1
+    - field.field.node.listing.field_amenities
+    - field.field.node.listing.field_city
+    - field.field.node.listing.field_email
+    - field.field.node.listing.field_facebook_url
+    - field.field.node.listing.field_latitude
+    - field.field.node.listing.field_listing_category
+    - field.field.node.listing.field_longitude
+    - field.field.node.listing.field_phone
+    - field.field.node.listing.field_simpleview_id
+    - field.field.node.listing.field_simpleview_main_image
+    - field.field.node.listing.field_toll_free_phone
+    - field.field.node.listing.field_twitter_url
+    - field.field.node.listing.field_website
+    - field.field.node.listing.field_zipcode
+    - node.type.listing
+  module:
+    - sample_simpleview_feeds
+    - node
+label: Listings
+id: fetcher_two
+description: ''
+help: ''
+import_period: -1
+fetcher: simpleview_listing_fetcher
+fetcher_configuration:
+  listing_category_listing_type: ''
+parser: sample_listing_parser
+parser_configuration: {  }
+processor: 'entity:node:listing'
+processor_configuration:
+  update_existing: 2
+  update_non_existent: _delete
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+  authorize: false
+  skip_hash_check: true
+  values:
+    type: listing
+custom_sources: {  }
+mappings:
+  -
+    target: title
+    map:
+      value: company
+    unique: {  }
+  -
+    target: body
+    map:
+      value: description
+      summary: ''
+    settings:
+      format: basic_html
+  -
+    target: field_simpleview_id
+    map:
+      value: listingid
+    unique:
+      value: '1'
+  -
+    target: field_zipcode
+    map:
+      value: zip
+    unique: {  }
+  -
+    target: field_address_1
+    map:
+      value: address1
+    unique: {  }
+  -
+    target: field_listing_category
+    map:
+      target_id: categoryname
+    settings:
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_amenities
+    map:
+      target_id: amenitytabs
+    settings:
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_city
+    map:
+      target_id: city
+    settings:
+      reference_by: name
+      autocreate: false
+  -
+    target: field_email
+    map:
+      value: email
+    unique: {  }
+    settings:
+      defuse: false
+  -
+    target: field_twitter_url
+    map:
+      value: twitter_url
+    unique: {  }
+  -
+    target: field_facebook_url
+    map:
+      value: facebook_url
+    unique: {  }
+  -
+    target: field_latitude
+    map:
+      value: latitude
+    unique: {  }
+  -
+    target: field_longitude
+    map:
+      value: longitude
+    unique: {  }
+  -
+    target: field_simpleview_main_image
+    map:
+      value: main_image
+    unique: {  }
+  -
+    target: field_phone
+    map:
+      value: phone
+    unique: {  }
+  -
+    target: field_listing_category
+    map:
+      target_id: subcategoryname
+    settings:
+      reference_by: name
+      autocreate: false
+  -
+    target: field_website
+    map:
+      uri: website
+      title: website
+  -
+    target: field_toll_free_phone
+    map:
+      value: tollfree
+    unique: {  }

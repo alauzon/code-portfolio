@@ -1,0 +1,110 @@
+<?php
+
+/**
+ * @file
+ * Module code for Sample Quiz.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\sample_quiz\ArtcQuizCachedHooks;
+
+/**
+ * Implements hook_field_widget_WIDGET_TYPE_form_alter().
+ *
+ * @param $element
+ * @param \Drupal\Core\Form\FormStateInterface $form_state
+ * @param $context
+ */
+function sample_quiz_field_widget_multivalue_form_alter(&$element, FormStateInterface $form_state, $context) {
+  /** @var \Drupal\field\Entity\FieldConfig $field_definition */
+  $field_definition = $context['items']->getFieldDefinition();
+  $paragraph_entity_reference_field_name = $field_definition->getName();
+
+  if ($paragraph_entity_reference_field_name == 'quiz_question' ||
+    $paragraph_entity_reference_field_name == 'field_quiz_question') {
+    /** @see \Drupal\paragraphs\Plugin\Field\FieldWidget\ParagraphsWidget::formElement() */
+    $widget_state = \Drupal\Core\Field\WidgetBase::getWidgetState([], $paragraph_entity_reference_field_name, $form_state);
+
+    foreach($widget_state['paragraphs'] as $delta => $paragraph) {
+
+      /** @var \Drupal\paragraphs\Entity\Paragraph $paragraph */
+      $paragraph_instance = $paragraph['entity'];
+      $paragraph_type = $paragraph_instance->bundle();
+
+      // Determine which paragraph type is being embedded.
+      if ($paragraph_type == 'quiz_question') {
+        $element[$delta]['subform']['field_tag_choice']['#type'] = 'item';
+        $element[$delta]['subform']['field_tag_choice']['#states'] = [
+          'visible' => [
+            ':input[id="field_quiz_type"]' => ['value' => 'tag'],
+          ],
+        ];
+        $element[$delta]['subform']['field_text_choice_good_answer']['#type'] = 'item';
+        $element[$delta]['subform']['field_text_choice_good_answer']['#states'] = [
+          'visible' => [
+            ':input[id="field_quiz_type"]' => ['value' => 'text'],
+          ],
+        ];
+        $element[$delta]['subform']['field_text_choice']['#type'] = 'item';
+        $element[$delta]['subform']['field_text_choice']['#states'] = [
+          'visible' => [
+            ':input[name="field_quiz_type"]' => ['value' => 'text'],
+          ],
+        ];
+      }
+    }
+  }
+}
+
+/*
+ * Implements hook_ENTITY_TYPE_view_alter.
+ */
+function sample_quiz_node_view_alter(
+  array &$build,
+  EntityInterface $entity,
+  EntityViewDisplayInterface $display) {
+  $node = $build['#node'];
+  if ($node->bundle() == 'quiz') {
+    $build['#attached']['drupalSettings']['sample_quiz_node_ids'][$node->id()] = $node->id();
+  }
+}
+
+/**
+ * Implements hook_views_api().
+ */
+function sample_quiz_sort_views_api() {
+  return array('api' => 3);
+}
+
+/**
+ * Implements hook_views_data_alter().
+ */
+/*
+function sample_quiz_views_data_alter(&$data) {
+  // Add a new sort for field_number_of_find_your_place_.
+  $data['node__field_number_of_find_your_place_']['field_number_of_find_your_place_'] = array(
+    'group' => t('Content'),
+    'title' => t('Number of Find Your Place matches sort'),
+    'help' => t('Sort Listings by the number of Find Your Place matches sort'),
+    'sort' => array(
+      'field' => 'node__field_number_of_find_your_place_',
+      'handler' => 'event_sort_handler_sort',
+    ),
+  );
+
+}
+*/
+
+/**
+ * Implements hook_module_implements_alter().
+ */
+function sample_quiz_module_implements_alter(&$implements, $hook) {
+  if ($hook == 'views_data_alter') {
+    // Make views natural sort always last so we get all the up to date info.
+    $group = $implements['sample_quiz'];
+    unset($implements['sample_quiz']);
+    $implements['sample_quiz'] = $group;
+  }
+}

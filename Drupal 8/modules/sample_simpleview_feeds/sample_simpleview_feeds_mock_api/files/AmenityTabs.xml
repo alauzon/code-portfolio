@@ -1,0 +1,2570 @@
+<amenitytabs>
+  <amenitytab>
+    <tabname>Accessible Amenities</tabname>
+    <amenitygroups>
+      <amenitygroup>
+        <groupname>Blind/Low Vision</groupname>
+        <amenitys>
+          <amenity>
+            <name>Audio Tour</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Signage</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Elevator with Braille or Raised Print Buttons</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Staff Orientation</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Special Programs</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Guided Tour</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Cognitive/Autism Spectrum</groupname>
+        <amenitys>
+          <amenity>
+            <name>Special Programs</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Guided Tour</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Deaf/Hearing Loss</groupname>
+        <amenitys>
+          <amenity>
+            <name>Portable Listening Device</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>ASL Interpreter</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Closed-Captioned Films/Videos</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Special Programs</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Guided Tour</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Deaf Room</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>General</groupname>
+        <amenitys>
+          <amenity>
+            <name>Accessible Car Parking Onsite</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Van Parking Onsite</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Assistive Equipment</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Unisex Bathroom</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Disability Discount</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Companion Discount</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Special Programs</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Chemical Sensitivity</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Service Animal Relief</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Mobility/Wheelchair Access</groupname>
+        <amenitys>
+          <amenity>
+            <name>Accessible Bathroom</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Entrance</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Route</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Low Service Counter or Window</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Transportation/Shuttle</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Elevator</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Seating/Bench</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Special Programs</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Guided Tour</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Roll-in Shower - Permanent Bench</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Roll-in Shower - Temporary Bench</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Tub</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Room on the Ground Floor</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Room near Lobby or Elevator</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Wheelchair Accessible Rides</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Scooter Accessible Rides</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Transfer Rides</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Beach Boardwalk or Mat</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Beach Mat: Water Access</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Beach Wheelchair Use or Rent</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Seating - Auditorium/Theater</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Locker Room</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Accessible Dressing Room</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+    </amenitygroups>
+  </amenitytab>
+  <amenitytab>
+    <tabname>Amenities</tabname>
+    <amenitygroups>
+      <amenitygroup>
+        <groupname>General</groupname>
+        <amenitys>
+          <amenity>
+            <name>Animal Comfort Station</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Children Are Free</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Conventions &amp; Meeting Site Availabilty</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Educational Programs/School Groups</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Electric Car Charging Station</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Free/Donations Accepted</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Gift/Retail Shop</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Group Rates/Incentives Offered</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Group Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hours of Operation</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Motorcoach Dining Capacity</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Motorcoach Parking Spaces</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>On Ocean/Lake/River</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Playground</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Wheelchair Accessible</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Within 1/2 Mi of Canal</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+    </amenitygroups>
+  </amenitytab>
+  <amenitytab>
+    <tabname>Business Continuity</tabname>
+    <amenitygroups>
+      <amenitygroup>
+        <groupname>General</groupname>
+        <amenitys>
+          <amenity>
+            <name>Open For Business</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Temporarily Closed</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Takeout Available</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Delivery Available</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+    </amenitygroups>
+  </amenitytab>
+  <amenitytab>
+    <tabname>Path Through History</tabname>
+    <amenitygroups>
+      <amenitygroup>
+        <groupname>Path Through History Information</groupname>
+        <amenitys>
+          <amenity>
+            <name>ADA Compliant</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Audio Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Brochures Maps</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Descriptive Signage</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Educational Programs</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Exhibits</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Gift Shop</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Guided Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Official PTH Site</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Parking</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Price</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Restrooms</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Self Guided Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Sites Dates Hours</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Wheelchair Accessible</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+    </amenitygroups>
+  </amenitytab>
+  <amenitytab>
+    <tabname>Places To Stay</tabname>
+    <amenitygroups>
+      <amenitygroup>
+        <groupname>B&amp;B &amp; Country Inns &amp; Farm Stays</groupname>
+        <amenitys>
+          <amenity>
+            <name>B&amp;B Reservation Service</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>B&amp;Bs &amp; Country Inns</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Farms</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Cabin/Cottage &amp; Vacation Rentals</groupname>
+        <amenitys>
+          <amenity>
+            <name>Cabins &amp; Cottages</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Vacation Rentals</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Camping</groupname>
+        <amenitys>
+          <amenity>
+            <name># Electrical Sites</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name># Sewage Sites</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name># Sites Total</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Beach</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Big Rigs</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Boat Launch</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Boat Rentals</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Cabin/Cottage/Trailer Rental</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Camp Store</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Camping</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Clothing Optional/Nudist</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>CONY Member</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Dump Station</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Glamping</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hot Showers</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Laundry Facility</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Open YR</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Privately-owned Campgrounds</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Public Campgrounds</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>RV Rentals</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Swim Lake/River</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Dude Ranches</groupname>
+        <amenitys>
+          <amenity>
+            <name>Dude Ranches</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>General</groupname>
+        <amenitys>
+          <amenity>
+            <name>Breakfast Included</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Cable/Satellite TV Available</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Conference Facilities</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Fitness Center/Gym</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Historic Property</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hot Tub On-Site</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Indoor Pool</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Internet</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Kitchenette</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>NYSHTA ID #</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>NYSHTA Member</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>NYSHTA Reservation URL</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Outdoor Pool</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Pet Friendly</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Private Bath</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Refrigerator</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Reservation URL</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Restaurant On-Site</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Spa Services</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Total # rooms</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Total Handicap Rooms #</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Health/Wellness</groupname>
+        <amenitys>
+          <amenity>
+            <name>Spas &amp; Wellness Centers</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Spiritual Retreat</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Hotels/Motels &amp; Resorts</groupname>
+        <amenitys>
+          <amenity>
+            <name>Hostels</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hotels &amp; Motels</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Ski Resort</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+    </amenitygroups>
+  </amenitytab>
+  <amenitytab>
+    <tabname>Things To Do</tabname>
+    <amenitygroups>
+      <amenitygroup>
+        <groupname>Amusements/Family Fun</groupname>
+        <amenitys>
+          <amenity>
+            <name>Amusement Parks</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Animals</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Aquariums</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Children's Museums</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Family Entertainment</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Farm Visits</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Fisheries</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Indoor Water Park</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Llamas &amp; Alpacas</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Water parks</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Winter Family Fun</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Zoos &amp; Game farms</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Art &amp; Culture</groupname>
+        <amenitys>
+          <amenity>
+            <name>Architecture &amp; Design</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Children's</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Community Art Centers</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Crafts &amp; Artisans</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Dance</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Film</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Folk Art</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Galleries &amp; Art Spaces</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Literary Arts</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Music</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>People/Culture</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Performing Arts</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Performing Arts Museum</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Theater</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Traditional Folk Life</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Colleges &amp; Universities</groupname>
+        <amenitys>
+          <amenity>
+            <name>Private</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Public</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Food &amp; Drink</groupname>
+        <amenitys>
+          <amenity>
+            <name>American</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Breweries</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Chinese/Korean/Japanese</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Diners/Drive-In's</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Distillery/Cidery</name>
+            <value>Yes</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>European</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Farm Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Farmer's Markets</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Food/Drink Tours/Trails</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>French</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>German/Austrian/Scandanavian</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Gourmet</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Indian</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Italian/Mediterranean</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Maple products</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Middle Eastern &amp; African</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Other/Specialty</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Pub</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Russian/Eastern European</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Spanish/Latin/Tapas</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Specialties</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>TasteNY</name>
+            <value>Yes</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Thai/Vietnamese</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Unique Dining</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Wineries</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>You-Pick</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>General</groupname>
+        <amenitys>
+          <amenity>
+            <name>Animal, Zoo, Aquarium</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Bicycle Rentals</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Bike Paths</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Boating</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Casino</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Child Care</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Climbing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Craft Beverages</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Days of Operation</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Farm Tours &amp; Markets</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Fee Range</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Fees</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Fishing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Foliage Rides</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Golf</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Guided Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Highstakes Bingo</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hiking</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>History and Museum</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hunting</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Jetski Rental</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Live Races</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Mountain Biking Area</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Multiple Rider Bike</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Natural Wonders</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>On-site ATV Trails</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Playing Fields</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Pontoon Rental</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Racino</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Rafting</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Restaurant</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Retail Shop</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>RV Rentals</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>SANY Member</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Segway</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Senior Discount</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Spas &amp; Waterparks</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>State &amp; National Parks</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Student Discount</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Tap Room</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Tasting</name>
+            <value>Yes</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Televised Races</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Transient Docking</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Wineries &amp; Craft Beverages</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Winter Indoor Activity</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>History</groupname>
+        <amenitys>
+          <amenity>
+            <name>Castles</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Cemeteries</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Covered Bridges</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Famous People</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Halls of Fame</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Haunted History</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Historic Sites</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Historical Villages</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>History &amp; Culture</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Inventions</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Lighthouses</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Military History</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Path Through History</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>People &amp; Cultures</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Presidential Sites</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Religious Sites</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Transportation</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Women's Suffrage</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Museums</groupname>
+        <amenitys>
+          <amenity>
+            <name>American History Museum</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Art &amp; Culture Museums</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Museums</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Science-Natural History</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Sports</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Nature</groupname>
+        <amenitys>
+          <amenity>
+            <name>Beaches</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Caverns &amp; Mines</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Gardens &amp; Arboretums</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>National Park</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Nature</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Nature Centers</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Other parks</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Scenic Drives &amp; Views</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>State Parks</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Waterfalls &amp; Gorges</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Wildlife/Birding</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Outdoor Adventures</groupname>
+        <amenitys>
+          <amenity>
+            <name>Active Adventure - Air</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Air Adventures</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>ATV</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Bicycling</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Caving</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Fishing Charters</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Fishing Guides</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Golf Private</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Golf Public</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Golf-Cart Rentals</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Golf-Driving Range</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Golf-Holes</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Golf-Par</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Golf-Pro Shop</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Golf-Yards</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hang Gliding</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hiking</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Horseback Riding</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Houseboat Rentals</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hunting</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hunting Guide</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Hunting Location</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Kayak/Canoe/Paddle Board</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Marinas</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Motorboat Rentals</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Mountain Coaster/Alpine Slide</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Outdoor Guides</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Paintball</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Para Sailing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Public Boat Launch</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Public Fishing Spots</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>River Tubing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Rock Climbing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Sailing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Scuba diving</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Segway Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Sky Diving</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Soaring</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Surfing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Water Adventures</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Whitewater</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Wind-Surfing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Zipline/Rope Course</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Shopping</groupname>
+        <amenitys>
+          <amenity>
+            <name>Antiques</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Arts &amp; Crafts</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Country Store</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Duty Free</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Flea Markets</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Malls &amp; Outlets</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Shopping</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Specialty Foods</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Specialty Shopping</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Village Shopping</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Sports &amp; Gaming</groupname>
+        <amenitys>
+          <amenity>
+            <name>Auto Racetracks</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Casinos</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Horse Racetracks</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Rodeos</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Spectator Sports/Gaming</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Sports Teams</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Stadiums/Arenas</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Tours &amp; Excursions</groupname>
+        <amenitys>
+          <amenity>
+            <name>Air Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Bicycle Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Boat Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Business/Factory Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Carriage Rides</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Costumed Guides/Historical Interpreters</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Motorcoach</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Tours &amp; Excursions</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Train</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Trolley Rides</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Walking Tours</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+      <amenitygroup>
+        <groupname>Winter Activities</groupname>
+        <amenitys>
+          <amenity>
+            <name># Advanced Runs</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name># Beginner Runs</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name># Intermediate Runs</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name># of Groomed Trails</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Adaptive Ski Program</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Bobsledding / Luging</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Chair Lift</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Conveyors (#)</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Dog-sledding</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Equipment Rental</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Food or Bar</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Gondola</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Groomed Track</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Ice climbing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Ice Fishing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Lessons</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Longest Run</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>More Snow Adventure</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>On Site Restaurant</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Onsite Lodging</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Skating</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Ski In/Ski Out</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Skiing &amp; Boarding</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Skiing (XC)</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Sleigh-Rides</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Snow Tubing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Snowmaking</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Snowmobiling</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Snowshoeing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Tobogganing</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Total # of Trails</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Tow Rope</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Trail Fee</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Trail Length</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Vertical Drop</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Warming Hut</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Winter Ski</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>XC-Marked Trails (#)</name>
+            <value/>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+    </amenitygroups>
+  </amenitytab>
+  <amenitytab>
+    <tabname>Travel Tools</tabname>
+    <amenitygroups>
+      <amenitygroup>
+        <groupname>Visitor Information</groupname>
+        <amenitys>
+          <amenity>
+            <name>Arts council</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Bridges &amp; Tunnels</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Buses</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Canal Systems</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Car/Limo Services</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Chamber of Commerce</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Commercial Airports</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>County Tourism Agency</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Ferries</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Gateway welcome center</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>InfoCenter (walk-in)</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Information &amp; Resources</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Local tourism</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Non Commercial Airport</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Railroads</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Regional Tourism Agency</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>State agency</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Subway</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Tourism trade association</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Transportation</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+          <amenity>
+            <name>Trolley</name>
+            <value>No</value>
+            <valuearray/>
+            <multiplevalues>No</multiplevalues>
+          </amenity>
+        </amenitys>
+      </amenitygroup>
+    </amenitygroups>
+  </amenitytab>
+</amenitytabs>

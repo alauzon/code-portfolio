@@ -1,0 +1,13 @@
+react_quiz:
+  webpack: true
+  js:
+    https://unpkg.com/react@16/umd/react.production.min.js: { type: external, minified: true, attributes: { crossorigin: anonymous }}
+    https://unpkg.com/react-dom@16/umd/react-dom.production.min.js: { type: external, minified: true, attributes: { crossorigin: anonymous }}
+    https://unpkg.com/axios/dist/axios.min.js: { type: external, minified: true, attributes: { crossorigin: anonymous }}
+    js/dist/index.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupal.ajax
+    - core/jquery.once
+    - core/jquery.cookie

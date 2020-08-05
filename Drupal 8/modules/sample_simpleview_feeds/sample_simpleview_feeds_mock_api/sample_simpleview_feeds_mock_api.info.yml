@@ -1,0 +1,10 @@
+name: Sample Simpleview Feeds Mock API
+description: Mock API for testing Sample Simpleview Feeds
+package: Sample
+
+type: module
+core: 8.x
+project: 'sample_simpleview_feeds:sample_simpleview_feeds_mock_api'
+
+dependencies:
+  - sample_simpleview_feeds:sample_simpleview_feeds

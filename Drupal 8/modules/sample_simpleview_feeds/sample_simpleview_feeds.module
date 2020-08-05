@@ -1,0 +1,234 @@
+<?php
+
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\feeds\Exception\EmptyFeedException;
+use Drupal\feeds\Exception\ValidationException;
+use Drupal\taxonomy\Entity\Term;
+
+/*
+ * Implements hook_ENTITY_TYPE_presave().
+ *
+ * Here we are redoing the mapping of the Listing node in case the field_simpleview_mapping has changed.
+ * This mapping sits in field_listing_category.
+ *
+ * @param EntityInterface $entity
+ */
+function sample_simpleview_feeds_node_presave(EntityInterface $entity) {
+  $node = $entity;
+  if ($node->bundle() == 'listing') {
+    // Redo the mapping for this Listing node
+    $node->field_listing_category = []; // Reset.
+    foreach ($node->field_amenities as $amenity) {
+      $amenity_tid = $amenity->getValue()['target_id'];
+      try {
+        $mapping_term_array = \Drupal::entityTypeManager()
+          ->getStorage('taxonomy_term')
+          ->loadByProperties([
+            'field_simpleview_mapping' => $amenity_tid,
+            'vid' => 'listing_categories',
+          ]);
+        if (count($mapping_term_array) > 0) {
+          foreach($mapping_term_array as $tid => $mapping_term) {
+            $node->field_listing_category[] = $tid;
+          }
+        }
+        else {
+          // Looking for amenities' parent term in case.
+          $amenitytabs_term_array = \Drupal::entityTypeManager()
+            ->getStorage('taxonomy_term')
+            ->loadByProperties([
+              'tid' => $amenity_tid,
+              'vid' => 'amenitytabs',
+            ]);
+          if (count($amenitytabs_term_array) > 0) {
+            $amenitytabs_term = array_pop($amenitytabs_term_array);
+            $parents = $amenitytabs_term->get('parent')->getValue();
+            $parent = array_pop($parents);
+            if ($parent['target_id'] != 0) {
+              $mapping_term_array = \Drupal::entityTypeManager()
+                ->getStorage('taxonomy_term')
+                ->loadByProperties([
+                  'field_simpleview_mapping' => $parent['target_id'],
+                  'vid' => 'listing_categories',
+                ]);
+              if (count($mapping_term_array) > 0) {
+                foreach($mapping_term_array as $tid => $mapping_term) {
+                  $node->field_listing_category[] = $tid;
+                }
+              }
+              else {
+                // Looking for amenities' grand parent term in case.
+                $amenitytabs_parent_term_array = \Drupal::entityTypeManager()
+                  ->getStorage('taxonomy_term')
+                  ->loadByProperties([
+                    'tid' => $parent['target_id'],
+                    'vid' => 'amenitytabs',
+                  ]);
+                if (count($amenitytabs_parent_term_array) > 0) {
+                  $amenitytabs_parent_term = array_pop($amenitytabs_parent_term_array);
+                  $grand_parents = $amenitytabs_parent_term->get('parent')->getValue();
+                  $grand_parent = array_pop($grand_parents);
+                  if ($grand_parent['target_id'] != 0) {
+                    $mapping_term_array = \Drupal::entityTypeManager()
+                      ->getStorage('taxonomy_term')
+                      ->loadByProperties([
+                        'field_simpleview_mapping' => $grand_parent['target_id'],
+                        'vid' => 'listing_categories',
+                      ]);
+                    if (count($mapping_term_array) > 0) {
+                      foreach($mapping_term_array as $tid => $mapping_term) {
+                        $node->field_listing_category[] = $tid;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      catch (EmptyFeedException $e) {
+        // Not an error.
+      }
+      catch (ValidationException $e) {
+        \Drupal::messenger()->addWarning(t('The following exception occurred while looking for a listing_category term @tid \'@exception_message\'.', [
+          '@tid' => $amenity_tid,
+          '@exception_message' => $e->getFormattedMessage(),
+        ]), 'warning');
+      }
+      catch (\Exception $e) {
+        \Drupal::messenger()->addWarning(t('The following exception occurred while looking for a listing_category term @tid \'@exception_message\'.', [
+          '@tid' => $amenity_tid,
+          '@exception_message' => $e->getMessage(),
+        ]), 'warning');
+      }
+    }
+  }
+}
+
+/*
+ * Implements hook_entity_update().
+ *
+ * Here we are redoing the mapping of all the Listings impacted by this modified field_simpleview_mapping
+ * in Listings_category terms.
+ *
+ * @param Term $term
+ */
+function sample_simpleview_feeds_taxonomy_term_update(Term $term) {
+  if ($term->get('vid')[0]->getValue()['target_id'] == 'listing_categories') {
+    $original_term = !empty($term->original) ? $term->original : NULL;
+    if ($original_term) {
+      $original_simpleview_mapping = $original_term->getFields()['field_simpleview_mapping']->getValue();
+      $simpleview_mapping = $term->getFields()['field_simpleview_mapping']->getValue();
+      $original_simpleview_mapping_ids = [];
+      foreach ($original_simpleview_mapping as $original_simpleview_mapping_tid) {
+        $original_simpleview_mapping_ids[] = $original_simpleview_mapping_tid['target_id'];
+      }
+      $simpleview_mapping_ids = [];
+      foreach ($simpleview_mapping as $simpleview_mapping_tid) {
+        $simpleview_mapping_ids[] = $simpleview_mapping_tid['target_id'];
+      }
+      $removed_simpleview_mappings = array_diff($original_simpleview_mapping_ids, $simpleview_mapping_ids);
+      $added_simpleview_mappings = array_diff($simpleview_mapping_ids, $original_simpleview_mapping_ids);
+      $listing_nids_to_reset = [];
+      try {
+        if ($removed_simpleview_mappings) {
+          foreach ($removed_simpleview_mappings as $simpleview_mapping_tid) {
+            $mapping_node_array = \Drupal::entityTypeManager()
+              ->getStorage('node')
+              ->loadByProperties([
+                'field_amenities' => $simpleview_mapping_tid,
+                'type' => 'listing',
+              ]);
+            if (count($mapping_node_array) > 0) {
+              foreach ($mapping_node_array as $mapping_node) {
+                $listing_nids_to_reset[$mapping_node->id()] = $mapping_node;
+              }
+            }
+          }
+        }
+        if ($added_simpleview_mappings) {
+          foreach ($added_simpleview_mappings as $simpleview_mapping_tid) {
+            $mapping_node_array = \Drupal::entityTypeManager()
+              ->getStorage('node')
+              ->loadByProperties([
+                'field_amenities' => $simpleview_mapping_tid,
+                'type' => 'listing',
+              ]);
+            if (count($mapping_node_array) > 0) {
+              foreach ($mapping_node_array as $mapping_node) {
+                $listing_nids_to_reset[$mapping_node->id()] = $mapping_node;
+              }
+            }
+          }
+        }
+        foreach ($listing_nids_to_reset as $listing_nid_to_reset) {
+          $listing_nid_to_reset->save();
+        }
+      }
+      catch (EmptyFeedException $e) {
+        // Not an error.
+      }
+      catch (ValidationException $e) {
+        \Drupal::messenger()->addWarning($e->getFormattedMessage(), [], 'warning');
+      }
+      catch (\Exception $e) {
+        \Drupal::messenger()->addWarning($e->getMessage(), [], 'warning');
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function sample_simpleview_feeds_theme(array $existing, string $type, string $theme, string $path): array {
+  return [
+    'date_recur_sample_sierra_widget' => [
+      'render element' => 'widget',
+    ],
+    'date_recur_sample_sierra_widget_modal_form' => [
+      'render element' => 'form',
+    ],
+    'date_recur_sample_sierra_widget_modal_occurrences_form' => [
+      'render element' => 'form',
+    ],
+    'date_recur_sample_sierra_widget_modal_form_ends' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+
+/**
+ * Implements hook_preprocess_HOOK().
+ *
+ * HOOK: 'date_recur_sample_sierra_widget'.
+ */
+function template_preprocess_date_recur_sample_sierra_widget(array &$variables): void {
+  $variables['attributes']['class'][] = 'date-recur-sample-sierra-widget';
+  $variables['#attached']['library'][] = 'sample_simpleview_feeds/date_recur_sample_sierra_widget';
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ *
+ * HOOK: 'date_recur_sample_sierra_widget_modal_form'.
+ */
+function template_preprocess_date_recur_sample_sierra_widget_modal_form(array &$variables): void {
+  $variables['attributes']['class'][] = 'date-recur-sample-sierra-modal';
+  // Wait until \Drupal\Core\Render\Element\Checkboxes::processCheckboxes is
+  // run so attributes are not replicated to children.
+  $variables['form']['weekdays']['#attributes']['class'][] = 'container-inline';
+  $variables['form']['weekdays']['#attributes']['class'][] = 'weekdays';
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ *
+ * HOOK: 'date_recur_sample_sierra_widget_modal_occurrences_form'.
+ */
+function template_preprocess_date_recur_sample_sierra_widget_modal_occurrences_form(array &$variables): void {
+  $variables['attributes']['class'][] = 'date-recur-sample-sierra-occurences-modal';
+  $variables['form']['occurrences']['show_more']['#attributes']['class'][] = 'show-more-wrapper';
+}

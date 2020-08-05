@@ -1,0 +1,109 @@
+uuid: 9d9537bc-31a9-428b-9d2b-4d09ede115e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.events.body
+    - field.field.node.events.field_city
+    - field.field.node.events.field_dates
+    - field.field.node.events.field_latitude
+    - field.field.node.events.field_longitude
+    - field.field.node.events.field_phone
+    - field.field.node.events.field_simpleview_id
+    - field.field.node.events.field_simpleview_main_image
+    - field.field.node.events.field_website
+    - node.type.events
+  module:
+    - sample_simpleview_feeds
+    - node
+label: Events
+id: events
+description: ''
+help: ''
+import_period: -1
+fetcher: simpleview_event_fetcher
+fetcher_configuration:
+  event_category_event_type: ''
+parser: sample_event_parser
+parser_configuration: {  }
+processor: 'entity:node:event'
+processor_configuration:
+  update_existing: 2
+  update_non_existent: _delete
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+  authorize: false
+  skip_hash_check: true
+  values:
+    type: events
+custom_sources:
+  eventid:
+    label: eventid
+    value: eventid
+    machine_name: eventid
+  '':
+    label: ''
+    value: ''
+    machine_name: ''
+  imagefile:
+    label: imagefile
+    value: imagefile
+    machine_name: imagefile
+mappings:
+  -
+    target: title
+    map:
+      value: title
+    unique: {  }
+  -
+    target: body
+    map:
+      value: description
+      summary: ''
+    settings:
+      format: basic_html
+  -
+    target: field_simpleview_id
+    map:
+      value: eventid
+    unique:
+      value: '1'
+  -
+    target: field_latitude
+    map:
+      value: latitude
+    unique: {  }
+  -
+    target: field_longitude
+    map:
+      value: longitude
+    unique: {  }
+  -
+    target: field_city
+    map:
+      target_id: city
+    settings:
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_dates
+    map:
+      value: startdate
+    settings:
+      timezone: UTC
+  -
+    target: field_simpleview_main_image
+    map:
+      value: imagefile
+    unique: {  }
+  -
+    target: field_phone
+    map:
+      value: phone
+    unique: {  }
+  -
+    target: field_website
+    map:
+      uri: website
+      title: website

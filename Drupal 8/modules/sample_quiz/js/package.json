@@ -1,0 +1,50 @@
+{
+  "name": "react-quiz",
+  "version": "2.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^3.4.1",
+    "npx": "^10.2.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "react-transition-group": "^1.2.1",
+    "test": "^0.6.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/preset-react": "^7.9.4",
+    "axios": "^0.19.2",
+    "cross-env": "^7.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "laravel-mix": "^5.0.4",
+    "postcss-object-fit-images": "^1.1.2",
+    "react-modal": "^3.11.2"
+  },
+  "description": "[View demo](http://mitchgavan.github.io/react-multi-choice-quiz/)",
+  "author": "",
+  "license": "ISC"
+}

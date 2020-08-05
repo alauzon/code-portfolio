@@ -1,0 +1,10 @@
+name: Sample Simpleview Feeds
+description: Defines custom processor for feeds, based on work by @SW in a module called "Sample Feeds" for initial import.
+package: Sample
+
+type: module
+core: 8.x
+project: 'sample_simpleview_feeds'
+
+dependencies:
+  - feeds:feeds
