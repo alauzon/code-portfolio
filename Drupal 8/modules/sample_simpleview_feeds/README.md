@@ -11,9 +11,9 @@ The basic work has been done by another developer than me.  I took it on in orde
   and at [SimpleviewEventFetcher.php](https://github.com/alauzon/code-portfolio/blob/master/Drupal%208/modules/sample_simpleview_feeds/src/Feeds/Fetcher/SimpleviewEventFetcher.php).
   * __custom Drush commands__ at [SampleSimpleviewFeedsCommands.php](https://github.com/alauzon/code-portfolio/blob/master/Drupal%208/modules/sample_simpleview_feeds/src/Commands/SampleSimpleviewFeedsCommands.php) to make sure the jobs
   could run more than the one minute limit for cron jobs under Drupal and that we can control exactly what gets run and
-  when. The _Drupal 8/modules/sample_simpleview_feeds/script/sample_cron.sh_ file needs to get copied to another
-  computer than the Pantheon server and will get called with the appropriate parameters in order to accomplish the feed
-  jobs using the custom Drush commands.
+  when. The [sample_cron.sh](https://github.com/alauzon/code-portfolio/blob/master/Drupal%208/modules/sample_simpleview_feeds/script/sample_cron.sh)
+  file needs to get copied to another computer than the Pantheon server and will get called with the appropriate
+  parameters in order to accomplish the feed jobs using the custom Drush commands.
 * __the reliability__ as it was not able to run on Pantheon servers neither locally by using:
   * __the generator technique__
   * __custom Drush commands__
