@@ -53,6 +53,3 @@ each item is first cleared of all terms, then assigned the terms from the curren
 This handles removal of terms, and also the addition of new terms if they are introduced.
 It does not handle the removal of old terms no longer provided by the feed. These terms
 will simply live in the Drupal site until manually deleted, but should not cause any harm.
-
-
-
