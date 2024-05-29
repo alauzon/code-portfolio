@@ -1,0 +1,40 @@
+name: boite
+recipe: lamp
+config:
+  database: mariadb
+  php: '8.1'
+  xdebug: true
+  webroot: public_html
+  ssl: true
+  composer_version: '2.2.12'
+  # Below only valid for via: cli
+  command: tail -f /dev/null
+  config:
+    php: config/php.ini
+services:
+  boite:
+    type: nginx
+    build:
+      - composer install
+    overrides:
+      environment:
+        APP_LEVEL: dev
+        TAYLOR: swift
+    build_as_root:
+      - apt-get update -y
+      - apt-get install curl php-cli php-mbstring git unzip -y
+      - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database
+tooling:
+  php:
+    service: boite
+  composer:
+    service: boite
+  env:
+    service: boite
+proxy:
+  pma:
+    - pma.boite.lndo.site

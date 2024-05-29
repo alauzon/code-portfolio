@@ -1,0 +1,3014 @@
+2023-12-14 05:35:49: DEBUG: Session is not valid.
+2023-12-14 05:37:07: DEBUG: Session is not valid.
+2023-12-14 05:37:13: DEBUG: Session is not valid.
+2023-12-14 05:43:03: DEBUG: Session is not valid.
+2023-12-14 05:59:55: DEBUG: Session is not valid.
+2023-12-14 13:41:21: DEBUG: Session is not valid.
+2023-12-14 13:43:12: DEBUG: Session is not valid.
+2023-12-14 13:43:14: DEBUG: Session is not valid.
+2023-12-14 13:45:42: DEBUG: Session is not valid.
+2023-12-14 18:28:43: DEBUG: Session is not valid.
+2023-12-14 22:30:16: DEBUG: Session is valid,
+2023-12-14 22:30:29: DEBUG: Session is not valid.
+2023-12-14 22:35:35: DEBUG: Session is valid,
+2023-12-14 22:36:02: DEBUG: Session is not valid.
+2023-12-14 22:36:11: DEBUG: Session is valid,
+2023-12-14 22:38:39: DEBUG: Session is valid,
+2023-12-14 22:40:19: DEBUG: Session is not valid.
+2023-12-14 22:40:44: DEBUG: Session is not valid.
+2023-12-14 22:42:26: DEBUG: Session is not valid.
+2023-12-14 22:46:07: DEBUG: Session is not valid.
+2023-12-14 22:46:33: DEBUG: Session is not valid.
+2023-12-14 22:47:32: DEBUG: Session is not valid.
+2023-12-14 22:55:30: DEBUG: Session is not valid.
+2023-12-15 14:39:08: DEBUG: Session is not valid.
+2023-12-15 14:43:55: DEBUG: Session is not valid.
+2023-12-15 15:35:49: DEBUG: Session is not valid.
+2023-12-15 16:48:00: DEBUG: Session is not valid.
+2023-12-15 20:15:26: DEBUG: Session is not valid.
+2023-12-15 20:15:26: DEBUG: Session is not valid.
+2023-12-15 20:15:26: DEBUG: Session is not valid.
+2023-12-15 20:15:26: DEBUG: Session is not valid.
+2023-12-15 21:53:08: DEBUG: Session is not valid.
+2023-12-15 21:53:08: DEBUG: Session is not valid.
+2023-12-15 21:53:14: DEBUG: Session is not valid.
+2023-12-15 21:54:03: DEBUG: username = erggtbvrtbtrb
+2023-12-15 21:54:08: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-15 21:54:08: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-15 21:54:08: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-15 21:54:08: DEBUG: Registrar: user 45 create
+2023-12-15 21:54:57: DEBUG: username = ersgserg
+2023-12-15 21:54:57: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-15 21:54:57: DEBUG: password = eferfersf
+2023-12-15 21:54:57: DEBUG: webauthn = on
+2023-12-15 21:54:57: DEBUG: Registrar: user 46 create
+2023-12-15 21:58:07: DEBUG: username = efrefwef
+2023-12-15 21:58:07: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-15 21:58:07: DEBUG: password = edfgvrsergreg
+2023-12-15 21:58:07: DEBUG: webauthn = on
+2023-12-15 21:58:23: DEBUG: username = efrefwef
+2023-12-15 21:58:23: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-15 21:58:23: DEBUG: password = edfgvrsergreg
+2023-12-15 21:58:23: DEBUG: webauthn = on
+2023-12-15 21:58:23: DEBUG: Registrar: user 48 created.
+2023-12-15 21:58:23: DEBUG: Registrar: user : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 48
+    [webauthnId] => fd9d4a40ac51a9e75a7a9613a93bf2b4
+    [username] => efrefwef
+    [password] => $2y$10$9xVQtA7jWFfaWdXGghcvw.PNYquHI1C6d5nbdP0kSqW6rz/j1AeMO
+    [email] => alauzon@serveursdupeuple.net
+)
+
+2023-12-15 22:00:47: DEBUG: username = ergergerg
+2023-12-15 22:00:47: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:00:47: DEBUG: password = reververv
+2023-12-15 22:00:47: DEBUG: webauthn = on
+2023-12-15 22:00:47: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 49
+    [webauthnId] => 2ae55c84acabf5b5eb902e25121ea502
+    [username] => ergergerg
+    [password] => $2y$10$OyTS2MKbc7HhpvFiXT.1yeP3NRNuwe12xfOeORkByhpFC/vPhcQZ.
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:00:47: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[158,143,7,77,244,179,172,218,84,194,181,152,206,47,157,135],"user":{"displayName":"ergergerg","name":"ergergerg","id":[50,97,101,53,53,99,56,52,97,99,97,98,102,53,98,53,101,98,57,48,50,101,50,53,49,50,49,101,97,53,48,50]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"no8HTfSzrNpUwrWYzi-dhw"}
+)
+
+2023-12-15 22:06:00: DEBUG: username = sdfdf
+2023-12-15 22:06:00: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:06:00: DEBUG: password = rgfergerg
+2023-12-15 22:06:00: DEBUG: webauthn = on
+2023-12-15 22:06:00: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 50
+    [webauthnId] => 214856919b21b5a7d93c4c7f9b299f11
+    [username] => sdfdf
+    [password] => $2y$10$ei6002V7V3oZkc0b0HCxeOZvhpWjiSmkzwUpTBpU7KWm8wY2Rb9bO
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:06:00: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[54,83,11,67,241,242,196,20,58,132,47,98,189,246,50,3],"user":{"displayName":"sdfdf","name":"sdfdf","id":[50,49,52,56,53,54,57,49,57,98,50,49,98,53,97,55,100,57,51,99,52,99,55,102,57,98,50,57,57,102,49,49]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"NlMLQ_HyxBQ6hC9ivfYyAw"}
+)
+
+2023-12-15 22:07:01: DEBUG: username = edfrefef
+2023-12-15 22:07:01: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:07:01: DEBUG: password = erfgerresg
+2023-12-15 22:07:01: DEBUG: webauthn = on
+2023-12-15 22:07:01: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 51
+    [webauthnId] => b3ea10d825f53b8127d7423136ba51ec
+    [username] => edfrefef
+    [password] => $2y$10$mXb6XYw6g8mMvs2EyZC.j.bPMX4RGFm6Kr7K1CjNNjeo8sNAjZrtS
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:07:01: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[224,66,33,197,32,163,53,204,243,175,170,221,134,104,130,240],"user":{"displayName":"edfrefef","name":"edfrefef","id":[98,51,101,97,49,48,100,56,50,53,102,53,51,98,56,49,50,55,100,55,52,50,51,49,51,54,98,97,53,49,101,99]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"4EIhxSCjNczzr6rdhmiC8A"}
+)
+
+2023-12-15 22:15:10: DEBUG: username = sdassa
+2023-12-15 22:15:10: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:15:10: DEBUG: password = asdsasad
+2023-12-15 22:15:10: DEBUG: webauthn = on
+2023-12-15 22:15:10: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 52
+    [webauthnId] => 0746382d2af3b6febba57eecb266d70e
+    [username] => sdassa
+    [password] => $2y$10$5UxiwnZIMKQr8CW7RbPtG.j3/5rcsQd75mTphX8duVbxIdoFtXm9i
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:15:10: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[35,40,125,70,7,77,63,160,22,111,198,157,165,29,31,102],"user":{"displayName":"sdassa","name":"sdassa","id":[48,55,52,54,51,56,50,100,50,97,102,51,98,54,102,101,98,98,97,53,55,101,101,99,98,50,54,54,100,55,48,101]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"Iyh9RgdNP6AWb8adpR0fZg"}
+)
+
+2023-12-15 22:15:55: DEBUG: username = sacdacasc
+2023-12-15 22:15:55: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:15:55: DEBUG: password = cssdacsdc
+2023-12-15 22:15:55: DEBUG: webauthn = on
+2023-12-15 22:15:55: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 53
+    [webauthnId] => b4d30982986a0c424221d8424c9a2e4e
+    [username] => sacdacasc
+    [password] => $2y$10$LxHqOgPBWxucdKgPyN23duYR1LqTKEOadYJTN0HRFFlYS.Ic5oeNK
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:15:55: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[109,252,210,158,231,224,48,250,215,152,225,203,2,102,91,32],"user":{"displayName":"sacdacasc","name":"sacdacasc","id":[98,52,100,51,48,57,56,50,57,56,54,97,48,99,52,50,52,50,50,49,100,56,52,50,52,99,57,97,50,101,52,101]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"bfzSnufgMPrXmOHLAmZbIA"}
+)
+
+2023-12-15 22:16:59: DEBUG: username = dsvvds
+2023-12-15 22:16:59: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:16:59: DEBUG: password = sdcdscsdcv
+2023-12-15 22:16:59: DEBUG: webauthn = on
+2023-12-15 22:16:59: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 54
+    [webauthnId] => 602e8416c1a70d5ea2bad61eeb6d330b
+    [username] => dsvvds
+    [password] => $2y$10$B0nmH/mQz3MuLki0b6efseTKOKa2O6zPg6TEMRk661ByyhOlHEpUq
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:16:59: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[156,9,79,149,79,199,30,190,72,189,170,178,87,229,82,116],"user":{"displayName":"dsvvds","name":"dsvvds","id":[54,48,50,101,56,52,49,54,99,49,97,55,48,100,53,101,97,50,98,97,100,54,49,101,101,98,54,100,51,51,48,98]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"nAlPlU_HHr5IvaqyV-VSdA"}
+)
+
+2023-12-15 22:18:12: DEBUG: username = dsvsdv
+2023-12-15 22:18:12: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:18:12: DEBUG: password = sdacsdcdsc
+2023-12-15 22:18:12: DEBUG: webauthn = on
+2023-12-15 22:18:12: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 55
+    [webauthnId] => 3228e4d2e0abdab8b85d5740fc237e0d
+    [username] => dsvsdv
+    [password] => $2y$10$NkJLLXJFAr/Gp1ml8aJVYeIF0sH9PVM/kiehELEQ4FgQhTa5fxxL6
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:18:12: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[162,126,222,80,11,20,243,169,79,87,22,61,8,70,137,99],"user":{"displayName":"dsvsdv","name":"dsvsdv","id":[51,50,50,56,101,52,100,50,101,48,97,98,100,97,98,56,98,56,53,100,53,55,52,48,102,99,50,51,55,101,48,100]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"on7eUAsU86lPVxY9CEaJYw"}
+)
+
+2023-12-15 22:19:51: DEBUG: username = sdzvzsdvd
+2023-12-15 22:19:51: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:19:51: DEBUG: password = vdfvdvfv
+2023-12-15 22:19:51: DEBUG: webauthn = on
+2023-12-15 22:19:51: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 56
+    [webauthnId] => 7d7d95553a3703ec73b2c39b3ee99416
+    [username] => sdzvzsdvd
+    [password] => $2y$10$DsgC09NdhzECQpSMHgTSfuz.pm9c9bK/5OMousPZr5IaY7QwZZ506
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:19:51: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[212,140,74,3,247,132,238,254,98,202,140,194,236,69,54,168],"user":{"displayName":"sdzvzsdvd","name":"sdzvzsdvd","id":[55,100,55,100,57,53,53,53,51,97,51,55,48,51,101,99,55,51,98,50,99,51,57,98,51,101,101,57,57,52,49,54]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"1IxKA_eE7v5iyozC7EU2qA"}
+)
+
+2023-12-15 22:29:28: DEBUG: username = sdcsdcsdc
+2023-12-15 22:29:28: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-15 22:29:28: DEBUG: password = asdassad
+2023-12-15 22:29:28: DEBUG: webauthn = on
+2023-12-15 22:29:28: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 57
+    [webauthnId] => 1e9f8bceac749b113d7fc8a53629bd2d
+    [username] => sdcsdcsdc
+    [password] => $2y$10$KfiLj1gpnwaiP38uWGnLlefWN4x1mgGRXfjmuW5y13Orwf9wP4MFW
+    [email] => alauzon@serveursdupeuple.net
+)
+
+2023-12-15 22:29:28: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[59,116,186,93,108,66,71,104,244,53,157,213,104,23,204,140],"user":{"displayName":"sdcsdcsdc","name":"sdcsdcsdc","id":[49,101,57,102,56,98,99,101,97,99,55,52,57,98,49,49,51,100,55,102,99,56,97,53,51,54,50,57,98,100,50,100]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"O3S6XWxCR2j0NZ3VaBfMjA"}
+)
+
+2023-12-15 22:30:50: DEBUG: username = ergesgrrg
+2023-12-15 22:30:50: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:30:50: DEBUG: password = sadascsd
+2023-12-15 22:30:50: DEBUG: webauthn = on
+2023-12-15 22:30:50: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 58
+    [webauthnId] => 5649c03ee76e8e9db3796c41dbdfc049
+    [username] => ergesgrrg
+    [password] => $2y$10$HM6simxRBCRd8YRXmvC.4O6aqtfqubTOgy3GAL/v/XUHbOeKXY74K
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:30:50: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[43,40,114,242,85,98,23,247,112,54,6,108,10,70,63,196],"user":{"displayName":"ergesgrrg","name":"ergesgrrg","id":[53,54,52,57,99,48,51,101,101,55,54,101,56,101,57,100,98,51,55,57,54,99,52,49,100,98,100,102,99,48,52,57]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"Kyhy8lViF_dwNgZsCkY_xA"}
+)
+
+2023-12-15 22:33:38: DEBUG: username = sdcvsdv
+2023-12-15 22:33:38: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:33:38: DEBUG: password = sdvsdv
+2023-12-15 22:33:38: DEBUG: webauthn = on
+2023-12-15 22:33:38: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 59
+    [webauthnId] => 82081c2a6c31242b0f4431ba94b34d3e
+    [username] => sdcvsdv
+    [password] => $2y$10$Am2kstjcurb8IWYreNidhuwwFqMMgYM/pS/OPuAgrLi7wBD9A099e
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:33:38: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[241,238,2,80,200,203,60,220,2,138,137,132,118,165,236,228],"user":{"displayName":"sdcvsdv","name":"sdcvsdv","id":[56,50,48,56,49,99,50,97,54,99,51,49,50,52,50,98,48,102,52,52,51,49,98,97,57,52,98,51,52,100,51,101]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"8e4CUMjLPNwCiomEdqXs5A"}
+)
+
+2023-12-15 22:37:06: DEBUG: username = sdvsdv
+2023-12-15 22:37:06: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:37:06: DEBUG: password = asasd
+2023-12-15 22:37:06: DEBUG: webauthn = on
+2023-12-15 22:37:06: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 60
+    [webauthnId] => bf962ec34325a181d9a2788a8cc49042
+    [username] => sdvsdv
+    [password] => $2y$10$4yGd4uXQUat4PR1s.UQ4cuI5uWP5oG3phZcABAbwyfC5kKJskZo1G
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:37:06: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[230,126,57,182,32,234,141,239,156,48,130,219,250,92,253,141],"user":{"displayName":"sdvsdv","name":"sdvsdv","id":[98,102,57,54,50,101,99,51,52,51,50,53,97,49,56,49,100,57,97,50,55,56,56,97,56,99,99,52,57,48,52,50]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"5n45tiDqje-cMILb-lz9jQ"}
+)
+
+2023-12-15 22:38:18: DEBUG: username = sdcsdcdsc
+2023-12-15 22:38:18: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:38:18: DEBUG: password = sdsdffds
+2023-12-15 22:38:18: DEBUG: webauthn = on
+2023-12-15 22:38:18: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 61
+    [webauthnId] => 63f5257771df4db8346ffadb0dd838c1
+    [username] => sdcsdcdsc
+    [password] => $2y$10$nchmI2aMtzjTAPmt9gXUYuGyXg/rGXn4LUw6JJduMDRbkAGkCtbCq
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:38:18: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[144,200,104,113,90,249,196,254,218,198,192,44,183,164,62,37],"user":{"displayName":"sdcsdcdsc","name":"sdcsdcdsc","id":[54,51,102,53,50,53,55,55,55,49,100,102,52,100,98,56,51,52,54,102,102,97,100,98,48,100,100,56,51,56,99,49]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"kMhocVr5xP7axsAst6Q-JQ"}
+)
+
+2023-12-15 22:41:49: DEBUG: username = yhtrhrth
+2023-12-15 22:41:49: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:41:49: DEBUG: password = sadsadsd
+2023-12-15 22:41:49: DEBUG: webauthn = on
+2023-12-15 22:41:49: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 62
+    [webauthnId] => b44340c0a7ec79d8f98336a63328a1fe
+    [username] => yhtrhrth
+    [password] => $2y$10$ppOo3Q3YhWw1EKToDHcBIuCluSfTnzv/ySj3HMoXq2w35S6BNxbVS
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:41:49: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[234,28,201,8,200,3,167,163,12,200,62,254,233,41,10,241],"user":{"displayName":"yhtrhrth","name":"yhtrhrth","id":[98,52,52,51,52,48,99,48,97,55,101,99,55,57,100,56,102,57,56,51,51,54,97,54,51,51,50,56,97,49,102,101]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"6hzJCMgDp6MMyD7-6SkK8Q"}
+)
+
+2023-12-15 22:48:35: DEBUG: Session is not valid.
+2023-12-15 22:55:17: DEBUG: Session is not valid.
+2023-12-15 22:55:49: DEBUG: username = alauzon
+2023-12-15 22:55:49: DEBUG: email = alauzon@alainlauzon.com
+2023-12-15 22:55:49: DEBUG: password = motdepasse
+2023-12-15 22:55:49: DEBUG: webauthn = on
+2023-12-15 22:55:49: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 63
+    [webauthnId] => e72faa8f740031287185f312491a930b
+    [username] => alauzon
+    [password] => $2y$10$r.Xe23oOJ9lLkI30GJXdkeD9mQ2bsRwvXufK0ejE3mWnCwmbs0xqS
+    [email] => alauzon@alainlauzon.com
+)
+
+2023-12-15 22:55:49: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[196,119,123,118,221,101,143,216,253,149,153,63,233,116,227,81],"user":{"displayName":"alauzon","name":"alauzon","id":[101,55,50,102,97,97,56,102,55,52,48,48,51,49,50,56,55,49,56,53,102,51,49,50,52,57,49,97,57,51,48,98]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"xHd7dt1lj9j9lZk_6XTjUQ"}
+)
+
+2023-12-15 22:56:27: DEBUG: username = test
+2023-12-15 22:56:27: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-15 22:56:27: DEBUG: password = hibou
+2023-12-15 22:56:27: DEBUG: webauthn = on
+2023-12-15 22:56:27: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 64
+    [webauthnId] => 8997bd6efea26018b78a5d676a7febf3
+    [username] => test
+    [password] => $2y$10$kj80rCR1XGItMmZNiFEWdO53A3Ll0LzkWRjGxNNw8l78MaBJClrRG
+    [email] => hibou.sage@republiqueduquebec.quebec
+)
+
+2023-12-15 22:56:27: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[250,188,213,103,17,6,220,40,240,224,32,72,49,90,74,233],"user":{"displayName":"test","name":"test","id":[56,57,57,55,98,100,54,101,102,101,97,50,54,48,49,56,98,55,56,97,53,100,54,55,54,97,55,102,101,98,102,51]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"-rzVZxEG3Cjw4CBIMVpK6Q"}
+)
+
+2023-12-15 22:59:57: DEBUG: username = test2
+2023-12-15 22:59:57: DEBUG: email = test2@alainlauzon.com
+2023-12-15 22:59:57: DEBUG: password = test2
+2023-12-15 22:59:57: DEBUG: webauthn = on
+2023-12-15 22:59:58: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 65
+    [webauthnId] => 25660c0688d23364cf011b7b8da003e5
+    [username] => test2
+    [password] => $2y$10$jGZyF1Y7l9.U2g6bm5K5cOoicl5OQMssafKL8SG7qhhl9MrlYYRAq
+    [email] => test2@alainlauzon.com
+)
+
+2023-12-15 22:59:58: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[228,197,105,63,123,150,6,170,198,199,155,10,15,151,13,86],"user":{"displayName":"test2","name":"test2","id":[50,53,54,54,48,99,48,54,56,56,100,50,51,51,54,52,99,102,48,49,49,98,55,98,56,100,97,48,48,51,101,53]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"5MVpP3uWBqrGx5sKD5cNVg"}
+)
+
+2023-12-15 23:00:01: DEBUG: Session is not valid.
+2023-12-15 23:00:29: DEBUG: Session is not valid.
+2023-12-16 00:12:11: DEBUG: username = joe
+2023-12-16 00:12:11: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:12:11: DEBUG: password = joe123
+2023-12-16 00:12:11: DEBUG: webauthn = on
+2023-12-16 00:12:11: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 66
+    [webauthnId] => 3b59f8caf3674321f32c2ccf86687ea8
+    [username] => joe
+    [password] => $2y$10$jA9mEdZvhBUVQJVCYWQrhOuWIbmvfFfzpCPsoN.E1SEOhn5ukkQoa
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:12:11: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[155,150,185,25,177,41,242,80,248,135,141,101,22,48,248,118],"user":{"displayName":"joe","name":"joe","id":[51,98,53,57,102,56,99,97,102,51,54,55,52,51,50,49,102,51,50,99,50,99,99,102,56,54,54,56,55,101,97,56]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"m5a5GbEp8lD4h41lFjD4dg"}
+)
+
+2023-12-16 00:12:15: DEBUG: Session is not valid.
+2023-12-16 00:12:52: DEBUG: username = tom
+2023-12-16 00:12:52: DEBUG: email = tom@alainlauzon.com
+2023-12-16 00:12:52: DEBUG: password = tom
+2023-12-16 00:12:52: DEBUG: webauthn = on
+2023-12-16 00:12:52: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 67
+    [webauthnId] => ae01b678f8fcfb5582a6af597bfb835a
+    [username] => tom
+    [password] => $2y$10$4LvTpCbZHIm7Zy/qdJisKOwRJ0hN5M1THgTfDsZRa1NGfgCLYqL5W
+    [email] => tom@alainlauzon.com
+)
+
+2023-12-16 00:12:52: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[222,150,222,211,41,140,211,133,86,47,113,117,83,123,113,121],"user":{"displayName":"tom","name":"tom","id":[97,101,48,49,98,54,55,56,102,56,102,99,102,98,53,53,56,50,97,54,97,102,53,57,55,98,102,98,56,51,53,97]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"3pbe0ymM04VWL3F1U3txeQ"}
+)
+
+2023-12-16 00:12:56: DEBUG: Session is not valid.
+2023-12-16 00:15:56: DEBUG: username = greg
+2023-12-16 00:15:56: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 00:15:56: DEBUG: password = fdvbdfvfdv
+2023-12-16 00:15:56: DEBUG: webauthn = on
+2023-12-16 00:15:56: DEBUG: webauthn2 = 
+2023-12-16 00:16:28: DEBUG: username = greg
+2023-12-16 00:16:28: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 00:16:28: DEBUG: password = fdvbdfvfdv
+2023-12-16 00:16:28: DEBUG: webauthn = on
+2023-12-16 00:16:28: DEBUG: webauthn2 = 
+2023-12-16 00:17:51: DEBUG: username = ffdsf
+2023-12-16 00:17:51: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:17:51: DEBUG: password = saccsac
+2023-12-16 00:19:07: DEBUG: username = ffdsf
+2023-12-16 00:19:07: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:19:07: DEBUG: password = saccsac
+2023-12-16 00:19:26: DEBUG: username = ffdsf
+2023-12-16 00:19:26: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:19:26: DEBUG: password = saccsac
+2023-12-16 00:19:29: DEBUG: username = ffdsf
+2023-12-16 00:19:29: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:19:29: DEBUG: password = saccsac
+2023-12-16 00:21:10: DEBUG: username = ffdsf
+2023-12-16 00:21:10: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:21:10: DEBUG: password = saccsac
+2023-12-16 00:24:04: DEBUG: username = testeur
+2023-12-16 00:24:04: DEBUG: email = testeur@alainlauzon.com
+2023-12-16 00:24:04: DEBUG: password = efffewef
+2023-12-16 00:24:34: DEBUG: Session is not valid.
+2023-12-16 00:24:54: DEBUG: username = hh
+2023-12-16 00:24:54: DEBUG: email = hh@alainlauzon.com
+2023-12-16 00:24:54: DEBUG: password = hh
+2023-12-16 00:28:20: DEBUG: username = test
+2023-12-16 00:28:20: DEBUG: email = test2@alainlauzon.com
+2023-12-16 00:28:20: DEBUG: password = dsfgvsdfgdsfg
+2023-12-16 00:28:32: DEBUG: username = test
+2023-12-16 00:28:32: DEBUG: email = test2@alainlauzon.com
+2023-12-16 00:28:32: DEBUG: password = dsfgvsdfgdsfg
+2023-12-16 00:28:41: DEBUG: username = test
+2023-12-16 00:28:41: DEBUG: email = test2@alainlauzon.com
+2023-12-16 00:28:41: DEBUG: password = dsfgvsdfgdsfg
+2023-12-16 00:29:15: DEBUG: username = vdfvfdv
+2023-12-16 00:29:15: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-16 00:29:15: DEBUG: password = sadasdasd
+2023-12-16 00:29:24: DEBUG: username = vdfvfdv
+2023-12-16 00:29:24: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-16 00:29:24: DEBUG: password = sadasdasd
+2023-12-16 00:31:23: DEBUG: username = sdcfdsfdsf
+2023-12-16 00:31:23: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:31:23: DEBUG: password = asdasdsda
+2023-12-16 00:34:03: DEBUG: username = vsdvsdf
+2023-12-16 00:34:03: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:34:03: DEBUG: password = asdcdasasdc
+2023-12-16 00:40:56: DEBUG: username = asasdd
+2023-12-16 00:40:56: DEBUG: email = joe@alainlauzon.comasdasdasd
+2023-12-16 00:40:56: DEBUG: password = asdasd
+2023-12-16 00:40:56: DEBUG: webauthn = 
+2023-12-16 00:40:56: DEBUG: webauthn2 = 
+2023-12-16 00:40:56: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 70
+    [webauthnId] => b023cd1d57cc61a481b83210eed25302
+    [username] => asasdd
+    [password] => $2y$10$re5io1t.wNrxHs0OaGFkkeXCA3XWDPGiyV51KEsg9qmO96zZik5GS
+    [email] => joe@alainlauzon.comasdasdasd
+)
+
+2023-12-16 00:41:16: DEBUG: username = dsfsdf
+2023-12-16 00:41:16: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:41:16: DEBUG: password = sdfdsf
+2023-12-16 00:41:16: DEBUG: webauthn = false
+2023-12-16 00:41:16: DEBUG: webauthn2 = true
+2023-12-16 00:41:16: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 71
+    [webauthnId] => 5c998faed4a3f3fb83258de34e24a811
+    [username] => dsfsdf
+    [password] => $2y$10$UEhQEdjoP/TtDuh9Y0rSLuzr0lNrjq3av04hRYlXS5n3M57bo/Tf6
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:41:36: DEBUG: username = dsfsdf
+2023-12-16 00:41:36: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:41:36: DEBUG: password = sdfdsf
+2023-12-16 00:41:48: DEBUG: webauthn = false
+2023-12-16 00:41:48: DEBUG: webauthn2 = true
+2023-12-16 00:42:08: DEBUG: username = dsfsdf
+2023-12-16 00:42:08: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:42:08: DEBUG: password = sdfdsf
+2023-12-16 00:42:12: DEBUG: webauthn = false
+2023-12-16 00:42:12: DEBUG: webauthn2 = true
+2023-12-16 00:42:31: DEBUG: username = dsfsdf
+2023-12-16 00:42:31: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:42:31: DEBUG: password = sdfdsf
+2023-12-16 00:42:31: DEBUG: webauthn = false
+2023-12-16 00:42:31: DEBUG: webauthn2 = true
+2023-12-16 00:42:31: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 73
+    [webauthnId] => fa17995d9c501577a2b57dfc1e2e1baf
+    [username] => dsfsdf
+    [password] => $2y$10$b6T7l/A16rV5cXytFl5ujeZO6kVDbgOSOOB9ZdY7IsprIdC3VRsxK
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:43:15: DEBUG: username = dsfsdf
+2023-12-16 00:43:15: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:43:15: DEBUG: password = sdfdsf
+2023-12-16 00:43:15: DEBUG: webauthn = false
+2023-12-16 00:43:15: DEBUG: webauthn2 = true
+2023-12-16 00:43:15: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 74
+    [webauthnId] => 3c0e0d682ebe1225d3f3156f0e6b30d5
+    [username] => dsfsdf
+    [password] => $2y$10$HTSkKqptds/DaPqyS54ue.JOdJIkmyO3.BQ092dTipXpu7vpukvwe
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:43:43: DEBUG: username = dsfsdf
+2023-12-16 00:43:43: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:43:43: DEBUG: password = sdfdsf
+2023-12-16 00:43:43: DEBUG: webauthn = false
+2023-12-16 00:43:43: DEBUG: webauthn2 = true
+2023-12-16 00:43:43: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 75
+    [webauthnId] => 88b5316029e457b84ee725e774bb81ee
+    [username] => dsfsdf
+    [password] => $2y$10$woX6rGuW/rmYmWLL6jtvnezSh82hsjrXBJNkaLZT2tiwVij/./iJa
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:43:55: DEBUG: username = dsfsdf
+2023-12-16 00:43:55: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:43:55: DEBUG: password = sdfdsf
+2023-12-16 00:43:55: DEBUG: webauthn = false
+2023-12-16 00:43:55: DEBUG: webauthn2 = true
+2023-12-16 00:43:55: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 76
+    [webauthnId] => 6d3947ef642b9c16c0663d272bbac488
+    [username] => dsfsdf
+    [password] => $2y$10$ZZGsx2aKJyM1NHnB2Anp.uXxTY0SlNrZhdGj9VTBeC/dv5iks3gsC
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:44:26: DEBUG: username = dsfsdf
+2023-12-16 00:44:26: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:44:26: DEBUG: password = sdfdsf
+2023-12-16 00:44:26: DEBUG: webauthn = false
+2023-12-16 00:44:26: DEBUG: webauthn2 = true
+2023-12-16 00:44:26: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 77
+    [webauthnId] => 6fd0352d926f1a9716b7e11c9c34af7f
+    [username] => dsfsdf
+    [password] => $2y$10$vweQsvlUxZ8jlVNkIHWvZefiP8zIzK8P1YRQ5c3LR5Z8JNCHZS6Xm
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:46:19: DEBUG: username = dsfsdf
+2023-12-16 00:46:19: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:46:19: DEBUG: password = sdfdsf
+2023-12-16 00:46:19: DEBUG: webauthn = false
+2023-12-16 00:46:19: DEBUG: webauthn2 = true
+2023-12-16 00:47:43: DEBUG: username = dsfsdf
+2023-12-16 00:47:43: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:47:43: DEBUG: password = sdfdsf
+2023-12-16 00:47:43: DEBUG: webauthn = false
+2023-12-16 00:47:43: DEBUG: webauthn2 = true
+2023-12-16 00:48:06: DEBUG: username = dsfsdf
+2023-12-16 00:48:06: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:48:06: DEBUG: password = sdfdsf
+2023-12-16 00:48:06: DEBUG: webauthn = false
+2023-12-16 00:48:06: DEBUG: webauthn2 = true
+2023-12-16 00:48:06: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 78
+    [webauthnId] => 5c20f6019084ffc425c3817154097870
+    [username] => dsfsdf
+    [password] => $2y$10$gWtMurNsn6sn7BQw6pxMUuhWnN.Z2FBfq.oXdT5dGNM8Eu5fNx31G
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:49:02: DEBUG: username = dsfsdf
+2023-12-16 00:49:02: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:49:02: DEBUG: password = sdfdsf
+2023-12-16 00:49:02: DEBUG: webauthn = false
+2023-12-16 00:49:02: DEBUG: webauthn2 = true
+2023-12-16 00:49:02: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 79
+    [webauthnId] => 5b9223d892c68c4e59c3ef0db4eedf5e
+    [username] => dsfsdf
+    [password] => $2y$10$OZRcVXzEoLaXsOes0ZOKFuYdsTR8ZlhdKIUgwzwdNxHIXIvFEOaGq
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:49:45: DEBUG: username = dsfsdf
+2023-12-16 00:49:45: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:49:45: DEBUG: password = sdfdsf
+2023-12-16 00:49:45: DEBUG: webauthn = false
+2023-12-16 00:49:45: DEBUG: webauthn2 = true
+2023-12-16 00:49:45: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 80
+    [webauthnId] => db4b5ce690b8cbc37d9fa6525f0ac363
+    [username] => dsfsdf
+    [password] => $2y$10$fpqWGGaK4A1xhR2tbL0/O.EYT6kRw96nqdSb/n2yA/mNDHnSbKpOO
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:51:02: DEBUG: username = dsfsdf
+2023-12-16 00:51:02: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:51:02: DEBUG: password = sdfdsf
+2023-12-16 00:51:02: DEBUG: webauthn = false
+2023-12-16 00:51:02: DEBUG: webauthn2 = true
+2023-12-16 00:51:12: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 81
+    [webauthnId] => 90f0edda5a988837751a7be815126527
+    [username] => dsfsdf
+    [password] => $2y$10$N9bDmjw4/XV8ksaXOAj6xuO9etucbt5e9Z2V7KCBkNySLzEMU0Gru
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:52:38: DEBUG: username = dsfsdf
+2023-12-16 00:52:38: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:52:38: DEBUG: password = sdfdsf
+2023-12-16 00:52:38: DEBUG: webauthn = false
+2023-12-16 00:52:38: DEBUG: webauthn2 = true
+2023-12-16 00:52:41: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 82
+    [webauthnId] => 2dcdf3c889c180579224ae6a1c56e9cb
+    [username] => dsfsdf
+    [password] => $2y$10$FBQYbCi.1r.DSYQc9LY0a.R0t8GK8jlYAxvxXyK3eTs.EH2VFgkHS
+    [email] => joe@alainlauzon.com
+)
+
+2023-12-16 00:57:33: DEBUG: username = dsfsdf
+2023-12-16 00:57:33: DEBUG: email = joe@alainlauzon.com
+2023-12-16 00:57:33: DEBUG: password = sdfdsf
+2023-12-16 00:57:33: DEBUG: webauthn = false
+2023-12-16 00:57:33: DEBUG: webauthn2 = true
+2023-12-16 00:57:33: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 83
+    [webauthnId] => ae8a4270fedd82fc103c96478dabde2a
+    [username] => dsfsdf
+    [password] => $2y$10$yTwkw206BEfJ2H4hPuC.aOzxanrt9lXTJiskdLcDhn8xWvgD.4xXu
+    [email] => joe@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:00:26: DEBUG: username = dsfsdfd
+2023-12-16 01:00:26: DEBUG: email = joe@alainlauzon.com
+2023-12-16 01:00:26: DEBUG: password = sdfdsf
+2023-12-16 01:00:26: DEBUG: webauthn = false
+2023-12-16 01:00:26: DEBUG: webauthn2 = true
+2023-12-16 01:00:26: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 84
+    [webauthnId] => 59747a853938124ccfc3738882bef9e4
+    [username] => dsfsdfd
+    [password] => $2y$10$GcVIBaxz7noZ.QYDzZ1Xs..1vJOviwxyBsAZT6aS0WNlSrHVqCojW
+    [email] => joe@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:01:08: DEBUG: username = dsfsdfd
+2023-12-16 01:01:08: DEBUG: email = joe@alainlauzon.com
+2023-12-16 01:01:08: DEBUG: password = sdfdsf
+2023-12-16 01:01:08: DEBUG: webauthn = false
+2023-12-16 01:01:08: DEBUG: webauthn2 = true
+2023-12-16 01:01:08: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 85
+    [webauthnId] => bd8d96ba3581149b8c500329eb9d000e
+    [username] => dsfsdfd
+    [password] => $2y$10$91ChZuJDJNzpbrB.w0Ks6emHi5EryQj273ntftDj9W3ywXYTDlbnC
+    [email] => joe@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:07:09: DEBUG: username = test
+2023-12-16 01:07:09: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-16 01:07:09: DEBUG: password = serveurs
+2023-12-16 01:07:09: DEBUG: webauthn = false
+2023-12-16 01:07:09: DEBUG: webauthn2 = false
+2023-12-16 01:07:09: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 86
+    [webauthnId] => debbf24659adc8e16eda40decff20933
+    [username] => test
+    [password] => $2y$10$Sekw8pusBu5oqBK50mWOkuuPueU5JGpd6KYTb5YWQ56yqKp.D5Q7u
+    [email] => alauzon@serveursdupeuple.net
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:07:09: DEBUG: Session is not valid.
+2023-12-16 01:12:13: DEBUG: username = test
+2023-12-16 01:12:13: DEBUG: email = test2@alainlauzon.com
+2023-12-16 01:12:13: DEBUG: password = test2
+2023-12-16 01:12:13: DEBUG: webauthn = false
+2023-12-16 01:12:13: DEBUG: webauthn2 = false
+2023-12-16 01:12:14: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 87
+    [webauthnId] => 8743fd1d700ca169534bfd44b325b465
+    [username] => test
+    [password] => $2y$10$SZEJTCZn7Oxh4S0w5P1AAuSQZWT.81SA3Q8YGMS0rptuDMONhspHq
+    [email] => test2@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:15:46: DEBUG: username = test
+2023-12-16 01:15:46: DEBUG: email = test2@alainlauzon.com
+2023-12-16 01:15:46: DEBUG: password = test
+2023-12-16 01:15:46: DEBUG: webauthn = false
+2023-12-16 01:15:46: DEBUG: webauthn2 = false
+2023-12-16 01:15:46: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 88
+    [webauthnId] => 6858b65a02201837fcade2700a2bd84c
+    [username] => test
+    [password] => $2y$10$LvwGMcJQf3ooFYz0qCxdS.v8mOF5JBUXG/dP3p80cpsZxrZRmq0s6
+    [email] => test2@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:15:52: DEBUG: Session is not valid.
+2023-12-16 01:23:20: DEBUG: username = toto
+2023-12-16 01:23:20: DEBUG: email = republiqueduquebec@serveursdupeuple.net
+2023-12-16 01:23:20: DEBUG: password = dsfsdaff
+2023-12-16 01:23:20: DEBUG: webauthn = false
+2023-12-16 01:23:20: DEBUG: webauthn2 = false
+2023-12-16 01:23:20: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 89
+    [webauthnId] => e12868513df0afef54e3a8f0c20abe8e
+    [username] => toto
+    [password] => $2y$10$tLFtpulqcyQ6c0VlWWl7QuLq891bOEVUarR06B2F7rknMuVnt2juK
+    [email] => republiqueduquebec@serveursdupeuple.net
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:23:20: DEBUG: Session is not valid.
+2023-12-16 01:23:44: DEBUG: Session is not valid.
+2023-12-16 01:24:10: DEBUG: Session is not valid.
+2023-12-16 01:24:21: DEBUG: Session is not valid.
+2023-12-16 01:24:57: DEBUG: Session is not valid.
+2023-12-16 01:27:01: DEBUG: Session is not valid.
+2023-12-16 01:27:16: DEBUG: Session is not valid.
+2023-12-16 01:28:12: DEBUG: Session is not valid.
+2023-12-16 01:28:42: DEBUG: username = ertwret
+2023-12-16 01:28:42: DEBUG: email = hibou.sage@republiqueduquebec.quebecaefadsf
+2023-12-16 01:28:42: DEBUG: password = ewafwaefewf
+2023-12-16 01:28:42: DEBUG: webauthn = false
+2023-12-16 01:28:42: DEBUG: webauthn2 = false
+2023-12-16 01:28:42: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 90
+    [webauthnId] => af58e0b79aab4e86a85ea18740be4805
+    [username] => ertwret
+    [password] => $2y$10$dOXO49pI54lrgy4vQbd1DOXcoY2KH1i6TnjUJt5jK.2ajZeHOxP4O
+    [email] => hibou.sage@republiqueduquebec.quebecaefadsf
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:28:48: DEBUG: Session is not valid.
+2023-12-16 01:37:28: DEBUG: username = ergewrgwerg
+2023-12-16 01:37:28: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 01:37:28: DEBUG: password = fvdsfvsdfv
+2023-12-16 01:37:28: DEBUG: webauthn = false
+2023-12-16 01:37:28: DEBUG: webauthn2 = false
+2023-12-16 01:37:29: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 91
+    [webauthnId] => ccbf424a17b99f4daf8a8b975bfd19a8
+    [username] => ergewrgwerg
+    [password] => $2y$10$PlJ8prLn8NFW4shm3D2Ua.31kJopXPfs4RVaoNb7jZT8GRZjLZFxO
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:37:29: DEBUG: Session is not valid.
+2023-12-16 01:39:40: DEBUG: Session is not valid.
+2023-12-16 01:42:52: DEBUG: username = sdfssdf
+2023-12-16 01:42:52: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 01:42:52: DEBUG: password = sdfsadasdsa
+2023-12-16 01:42:52: DEBUG: webauthn = false
+2023-12-16 01:42:52: DEBUG: webauthn2 = false
+2023-12-16 01:42:52: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 92
+    [webauthnId] => 1fd745de49817d0461deafa5b526b4e0
+    [username] => sdfssdf
+    [password] => $2y$10$looZNOqJTu6TT8vUMDy3ZuKMkpacvj5cblMMtjRtwObe5RFkypbD6
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:43:30: DEBUG: Session is not valid.
+2023-12-16 01:51:21: DEBUG: username = ertrwetert
+2023-12-16 01:51:21: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 01:51:21: DEBUG: password = aefaefwef
+2023-12-16 01:51:21: DEBUG: webauthn = false
+2023-12-16 01:51:21: DEBUG: webauthn2 = false
+2023-12-16 01:51:21: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 93
+    [webauthnId] => c7b509458348c03d67464419c81552f7
+    [username] => ertrwetert
+    [password] => $2y$10$oP6bBraNZAzmeAuzivwiNOFPj7NWWut8uZ6TrYI4SwVh84EEHMJKe
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:51:26: DEBUG: Session is not valid.
+2023-12-16 01:58:11: DEBUG: username = wefwewaef
+2023-12-16 01:58:11: DEBUG: email = hibou.sage@republiqueduquebec.quebecwefewafewaf
+2023-12-16 01:58:11: DEBUG: password = awefawef
+2023-12-16 01:58:11: DEBUG: webauthn = false
+2023-12-16 01:58:11: DEBUG: webauthn2 = false
+2023-12-16 01:58:11: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 94
+    [webauthnId] => ab1a857c8c4d92e33be316f31c4da8c9
+    [username] => wefwewaef
+    [password] => $2y$10$zBM5F6xi3num9c5kGvDEhuA8TlV65/C.mJrtf6gcY5YSZmSpa5g1a
+    [email] => hibou.sage@republiqueduquebec.quebecwefewafewaf
+    [webauthnkeys] => []
+)
+
+2023-12-16 01:58:11: DEBUG: Session is not valid.
+2023-12-16 02:00:13: DEBUG: Session is not valid.
+2023-12-16 02:00:32: DEBUG: username = fdsadfdsf
+2023-12-16 02:00:32: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 02:00:32: DEBUG: password = sdfsdfsdf
+2023-12-16 02:00:32: DEBUG: webauthn = true
+2023-12-16 02:00:32: DEBUG: webauthn2 = false
+2023-12-16 02:00:32: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 95
+    [webauthnId] => 6a7d8ae0d40116198534938ed74af5c6
+    [username] => fdsadfdsf
+    [password] => $2y$10$yK3fcthKppwIiZ8O0x4HXuZElAX7ZEa1bYtBhdS2EAv929MJuuvCm
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 02:00:32: DEBUG: Session is not valid.
+2023-12-16 02:04:11: DEBUG: username = regfvergreg
+2023-12-16 02:04:11: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 02:04:11: DEBUG: password = rfrsefsefr
+2023-12-16 02:04:11: DEBUG: webauthn = true
+2023-12-16 02:04:11: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 96
+    [webauthnId] => 06c356f382e62578f3008bced324a7af
+    [username] => regfvergreg
+    [password] => $2y$10$IQQKIukoy82z/W8xK1uu2uIMVCKNqHCyqNEPKLWco.WucOM7vVB3K
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 02:04:44: DEBUG: username = regfvergreg
+2023-12-16 02:04:44: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 02:04:44: DEBUG: password = rfrsefsefr
+2023-12-16 02:04:44: DEBUG: webauthn = true
+2023-12-16 02:05:01: DEBUG: username = regfvergreg
+2023-12-16 02:05:01: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 02:05:01: DEBUG: password = rfrsefsefr
+2023-12-16 02:05:01: DEBUG: webauthn = true
+2023-12-16 02:05:17: DEBUG: username = regfvergreg
+2023-12-16 02:05:17: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 02:05:17: DEBUG: password = rfrsefsefr
+2023-12-16 02:05:17: DEBUG: webauthn = true
+2023-12-16 02:05:17: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 99
+    [webauthnId] => 24b0efdcb63d3ac6deaa8927d379bdd3
+    [username] => regfvergreg
+    [password] => $2y$10$N0tnnsBb.JjDHARKmdjCwuHCUVI/r5xQ6wNce6P2q3JUk2B8VV85m
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 02:05:29: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[130,160,209,30,2,122,72,148,117,153,5,23,44,2,78,190],"user":{"displayName":"regfvergreg","name":"regfvergreg","id":[50,52,98,48,101,102,100,99,98,54,51,100,51,97,99,54,100,101,97,97,56,57,50,55,100,51,55,57,98,100,100,51]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"gqDRHgJ6SJR1mQUXLAJOvg"}
+)
+
+2023-12-16 02:06:47: DEBUG: username = ergferg
+2023-12-16 02:06:47: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 02:06:47: DEBUG: password = ersgrgserg
+2023-12-16 02:06:47: DEBUG: webauthn = true
+2023-12-16 02:06:47: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 100
+    [webauthnId] => 879911aef02e4c016a066d74c9d956f7
+    [username] => ergferg
+    [password] => $2y$10$CjvPC41YDidJuzhZx43SgutXmxyO76v9.TcxVuaBjFmlhDa.uVjTi
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 02:06:47: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[64,22,28,191,10,212,103,96,125,236,120,92,107,128,168,112],"user":{"displayName":"ergferg","name":"ergferg","id":[56,55,57,57,49,49,97,101,102,48,50,101,52,99,48,49,54,97,48,54,54,100,55,52,99,57,100,57,53,54,102,55]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"QBYcvwrUZ2B97Hhca4CocA"}
+)
+
+2023-12-16 02:11:00: DEBUG: username = aewrgegerg
+2023-12-16 02:11:00: DEBUG: email = republiqueduquebec@serveursdupeuple.net
+2023-12-16 02:11:00: DEBUG: password = ergsregresg
+2023-12-16 02:11:00: DEBUG: webauthn = true
+2023-12-16 02:11:00: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 101
+    [webauthnId] => 66cfd31a0df8aaa661d78b6016660cd2
+    [username] => aewrgegerg
+    [password] => $2y$10$ypL8H1LnUDHg2Xawg/R9v.qv6ubr5pO8uImey4m.ljYUv6qr9AKqG
+    [email] => republiqueduquebec@serveursdupeuple.net
+    [webauthnkeys] => []
+)
+
+2023-12-16 02:11:00: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[170,17,120,186,79,41,32,88,87,237,112,46,92,132,142,50],"user":{"displayName":"aewrgegerg","name":"aewrgegerg","id":[54,54,99,102,100,51,49,97,48,100,102,56,97,97,97,54,54,49,100,55,56,98,54,48,49,54,54,54,48,99,100,50]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"qhF4uk8pIFhX7XAuXISOMg"}
+)
+
+2023-12-16 02:13:16: DEBUG: username = ergsergg
+2023-12-16 02:13:16: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 02:13:16: DEBUG: password = resgsergsreg
+2023-12-16 02:13:16: DEBUG: webauthn = true
+2023-12-16 02:13:16: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 102
+    [webauthnId] => 64b64975a21052afb80f626caa9c3e4d
+    [username] => ergsergg
+    [password] => $2y$10$YFGO2tWgukPfqBMsJWCN3OYs6JWiJjxvfl91Gji9h7QobSGjbEZgG
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 02:13:16: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[28,182,3,165,7,182,8,223,32,50,227,199,197,146,10,224],"user":{"displayName":"ergsergg","name":"ergsergg","id":[54,52,98,54,52,57,55,53,97,50,49,48,53,50,97,102,98,56,48,102,54,50,54,99,97,97,57,99,51,101,52,100]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"HLYDpQe2CN8gMuPHxZIK4A"}
+)
+
+2023-12-16 14:36:34: DEBUG: username = test
+2023-12-16 14:36:34: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 14:36:34: DEBUG: password = gvdsfvdssdf
+2023-12-16 14:36:34: DEBUG: webauthn = true
+2023-12-16 14:36:49: DEBUG: username = test
+2023-12-16 14:36:49: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 14:36:49: DEBUG: password = gvdsfvdssdf
+2023-12-16 14:36:49: DEBUG: webauthn = true
+2023-12-16 14:36:49: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 104
+    [webauthnId] => 71e1d8416a368ed11b5469392a98a5ff
+    [username] => test
+    [password] => $2y$10$WQuoFZTjJw96EgN.gtAm/ub6.W1ReumlGdnY.VJ/QweIQveiNlJdW
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 14:36:49: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[26,135,39,253,239,73,184,24,246,84,51,59,122,4,252,255],"user":{"displayName":"test","name":"test","id":[55,49,101,49,100,56,52,49,54,97,51,54,56,101,100,49,49,98,53,52,54,57,51,57,50,97,57,56,97,53,102,102]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"Gocn_e9JuBj2VDM7egT8_w"}
+)
+
+2023-12-16 14:38:03: DEBUG: username = test
+2023-12-16 14:38:03: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 14:38:03: DEBUG: password = erewrwere
+2023-12-16 14:38:03: DEBUG: webauthn = true
+2023-12-16 14:38:03: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 105
+    [webauthnId] => 0cf2f770c9485f672df6375dfc8d2143
+    [username] => test
+    [password] => $2y$10$Zr7kSaplO1jSgJiJ0rR3quVJbjc6nu77v9Uc21sucZaw6s46bMzl2
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 14:38:11: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[169,113,173,252,116,215,81,121,228,8,229,100,125,113,48,208],"user":{"displayName":"test","name":"test","id":[48,99,102,50,102,55,55,48,99,57,52,56,53,102,54,55,50,100,102,54,51,55,53,100,102,99,56,100,50,49,52,51]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"qXGt_HTXUXnkCOVkfXEw0A"}
+)
+
+2023-12-16 14:38:35: DEBUG: username = ytretrt
+2023-12-16 14:38:35: DEBUG: email = joe@alainlauzon.com
+2023-12-16 14:38:35: DEBUG: password = ertertertret
+2023-12-16 14:38:35: DEBUG: webauthn = true
+2023-12-16 14:38:35: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 106
+    [webauthnId] => f7e38bee25c068e992099b4c2b148ce7
+    [username] => ytretrt
+    [password] => $2y$10$aqbzCOtOwV1vN3MyuHCCH.ddIv2EbEjagwAwfc6z3U1qPwdMA19g2
+    [email] => joe@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-16 14:38:35: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[60,217,76,53,217,16,233,101,192,238,237,119,127,84,180,89],"user":{"displayName":"ytretrt","name":"ytretrt","id":[102,55,101,51,56,98,101,101,50,53,99,48,54,56,101,57,57,50,48,57,57,98,52,99,50,98,49,52,56,99,101,55]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"PNlMNdkQ6WXA7u13f1S0WQ"}
+)
+
+2023-12-16 14:40:05: DEBUG: username = gdfdfg
+2023-12-16 14:40:05: DEBUG: email = test2@alainlauzon.com
+2023-12-16 14:40:05: DEBUG: password = dfgdfgdfg
+2023-12-16 14:40:05: DEBUG: webauthn = true
+2023-12-16 14:40:05: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 107
+    [webauthnId] => 7c947bfb691abd1041e11ea81a5c6449
+    [username] => gdfdfg
+    [password] => $2y$10$zhFpL6G2CsQWOr6KqQYMrOjP1EzjIrdQ6iGoPWfJh1fH0oD1c3UTG
+    [email] => test2@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-16 14:40:05: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[80,67,65,238,38,217,159,26,148,90,199,103,127,176,165,55],"user":{"displayName":"gdfdfg","name":"gdfdfg","id":[55,99,57,52,55,98,102,98,54,57,49,97,98,100,49,48,52,49,101,49,49,101,97,56,49,97,53,99,54,52,52,57]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"UENB7ibZnxqUWsdnf7ClNw"}
+)
+
+2023-12-16 14:40:16: DEBUG: Session is not valid.
+2023-12-16 14:40:37: DEBUG: username = tshshdrthrdth
+2023-12-16 14:40:37: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-16 14:40:37: DEBUG: password = grsegsregserg
+2023-12-16 14:40:37: DEBUG: webauthn = false
+2023-12-16 14:40:37: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 108
+    [webauthnId] => 954900d2ad1eaed43b13a2eca58fadb1
+    [username] => tshshdrthrdth
+    [password] => $2y$10$9zfmfr30SziweMENV5a9OuXL5MywH6FMNIPICuMsxEQt28wg88Fci
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-16 14:40:38: DEBUG: Session is not valid.
+2023-12-18 02:56:08: DEBUG: username = test1
+2023-12-18 02:56:08: DEBUG: email = joe@alainlauzon.com
+2023-12-18 02:56:08: DEBUG: password = joe
+2023-12-18 02:56:08: DEBUG: webauthn = false
+2023-12-18 02:56:08: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 109
+    [webauthnId] => cdac2c60df6758acc9d81c7d63ffc419
+    [username] => test1
+    [password] => $2y$10$rMGuNS7cFMFDrDQ/s8l8yuFnuIuZijrhO9k5BjsuyaAHI9tPKVL2y
+    [email] => joe@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-18 02:56:08: DEBUG: Session is not valid.
+2023-12-18 02:56:53: DEBUG: Session is not valid.
+2023-12-18 02:57:12: DEBUG: Session is not valid.
+2023-12-18 02:57:19: DEBUG: Session is not valid.
+2023-12-18 02:57:59: DEBUG: username = test1
+2023-12-18 02:57:59: DEBUG: email = joe@alainlauzon.com
+2023-12-18 02:57:59: DEBUG: password = test1
+2023-12-18 02:57:59: DEBUG: webauthn = false
+2023-12-18 02:57:59: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 110
+    [webauthnId] => f0fb7a0f02820da03ff196fa98efb1f8
+    [username] => test1
+    [password] => $2y$10$wFAU2opO0lbCIildgIvuPefz4Q0sMwemtXrsCU/QuEXn6Ou6UCOCC
+    [email] => joe@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-18 02:57:59: DEBUG: Session is not valid.
+2023-12-19 16:44:20: DEBUG: Session is not valid.
+2023-12-19 16:44:20: DEBUG: Session is not valid.
+2023-12-19 17:03:16: DEBUG: Session is not valid.
+2023-12-19 17:03:16: DEBUG: Session is not valid.
+2023-12-19 17:03:25: DEBUG: Session is not valid.
+2023-12-19 17:03:25: DEBUG: Session is not valid.
+2023-12-19 21:01:10: DEBUG: username = Alain Lauzon
+2023-12-19 21:01:10: DEBUG: email = alauzon@alainlauzon.com
+2023-12-19 21:01:10: DEBUG: password = test1
+2023-12-19 21:01:10: DEBUG: webauthn = false
+2023-12-19 21:01:40: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 111
+    [webauthnId] => 022046f8840f490eaf93cb39767ac790
+    [username] => Alain Lauzon
+    [password] => $2y$10$M9dC5Gtm3GC968m9Nf2svujR1.fFYYqDhIQIvNhK0J0ZUAU1koVlS
+    [email] => alauzon@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-19 21:01:51: DEBUG: j = Array
+(
+    [message] => Bravo, votre compte a bien été créé.
+    [redirect] => /
+)
+
+2023-12-19 21:01:51: DEBUG: Session is not valid.
+2023-12-19 21:02:11: DEBUG: Session is not valid.
+2023-12-19 21:03:01: DEBUG: Session is not valid.
+2023-12-19 21:03:05: DEBUG: Session is not valid.
+2023-12-19 21:03:28: DEBUG: username = test2
+2023-12-19 21:03:28: DEBUG: email = test2@alainlauzon.com
+2023-12-19 21:03:28: DEBUG: password = test2
+2023-12-19 21:03:28: DEBUG: webauthn = true
+2023-12-19 21:03:48: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 112
+    [webauthnId] => 977bdf1b1eb05db074010eb10b108c8c
+    [username] => test2
+    [password] => $2y$10$o3sDLP26KX2ytyHPdS230uiF69oFSK4cEHllwUORHS7P3TX/xxHzO
+    [email] => test2@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-19 21:03:49: DEBUG: j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[231,255,44,133,238,187,150,134,126,146,114,185,154,154,207,183],"user":{"displayName":"test2","name":"test2","id":[57,55,55,98,100,102,49,98,49,101,98,48,53,100,98,48,55,52,48,49,48,101,98,49,48,98,49,48,56,99,56,99]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"5_8she67loZ-knK5mprPtw"}
+)
+
+2023-12-19 21:10:33: DEBUG: username = test2
+2023-12-19 21:10:33: DEBUG: email = test2@alainlauzon.com
+2023-12-19 21:10:33: DEBUG: password = test2
+2023-12-19 21:10:33: DEBUG: Registrar::register(), username = test2
+2023-12-19 21:10:57: DEBUG: username = test2
+2023-12-19 21:10:57: DEBUG: email = test2@alainlauzon.com
+2023-12-19 21:10:57: DEBUG: password = test2
+2023-12-19 21:10:57: DEBUG: Registrar::register(), username = test2
+2023-12-19 21:11:00: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 114
+    [webauthnId] => aab4724ab93715022b737625979129b9
+    [username] => test2
+    [password] => $2y$10$bvjucJS8kuyM7oWYw6o./.1sq.5TSbv.hqy3dUfgmRA5TibQzJQle
+    [email] => test2@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-19 21:11:00: DEBUG: Registrar::register(), webauthn = true
+2023-12-19 21:11:01: DEBUG: Registrar::register(), j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[71,79,189,155,113,171,193,26,211,86,75,86,77,191,124,46],"user":{"displayName":"test2","name":"test2","id":[97,97,98,52,55,50,52,97,98,57,51,55,49,53,48,50,50,98,55,51,55,54,50,53,57,55,57,49,50,57,98,57]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"R0-9m3GrwRrTVktWTb98Lg"}
+)
+
+2023-12-19 21:12:49: DEBUG: username = tsertyergtr
+2023-12-19 21:12:49: DEBUG: email = hibou.sage@republiqueduquebec.quebec
+2023-12-19 21:12:49: DEBUG: password = gtregrtgrtg
+2023-12-19 21:12:49: DEBUG: Registrar::register(), username = tsertyergtr
+2023-12-19 21:12:49: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 115
+    [webauthnId] => 836716abe3ec685ccb1d7fb3ab26a8ce
+    [username] => tsertyergtr
+    [password] => $2y$10$McZKyDiACrABlVReT7vsPO7jabo/qi0Kq2bAONvKtT5eQ8ZHPNkl.
+    [email] => hibou.sage@republiqueduquebec.quebec
+    [webauthnkeys] => []
+)
+
+2023-12-19 21:12:49: DEBUG: Registrar::register(), webauthn = true
+2023-12-19 21:12:49: DEBUG: Registrar::register(), j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[64,205,78,119,134,85,96,180,5,19,109,125,97,210,117,110],"user":{"displayName":"tsertyergtr","name":"tsertyergtr","id":[56,51,54,55,49,54,97,98,101,51,101,99,54,56,53,99,99,98,49,100,55,102,98,51,97,98,50,54,97,56,99,101]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"QM1Od4ZVYLQFE219YdJ1bg"}
+)
+
+2023-12-19 21:15:25: DEBUG: username = rewgergerg
+2023-12-19 21:15:25: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-19 21:15:25: DEBUG: password = rtghrgretg
+2023-12-19 21:15:25: DEBUG: Registrar::register(), username = rewgergerg
+2023-12-19 21:15:25: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 116
+    [webauthnId] => aeff7bddca4c87c95e45fa929ddc069b
+    [username] => rewgergerg
+    [password] => $2y$10$CDxAB54rft1VTABohXu3refea4lH0Ik4x1FOnJ949E2C5AyQAFqrO
+    [email] => alauzon@serveursdupeuple.net
+    [webauthnkeys] => []
+)
+
+2023-12-19 21:15:25: DEBUG: Registrar::register(), webauthn = true
+2023-12-19 21:15:25: DEBUG: Registrar::register(), j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[136,197,107,7,97,0,98,24,12,161,83,196,141,223,4,161],"user":{"displayName":"rewgergerg","name":"rewgergerg","id":[97,101,102,102,55,98,100,100,99,97,52,99,56,55,99,57,53,101,52,53,102,97,57,50,57,100,100,99,48,54,57,98]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"iMVrB2EAYhgMoVPEjd8EoQ"}
+)
+
+2023-12-19 21:17:36: DEBUG: username = tyrhtrhtyhh
+2023-12-19 21:17:36: DEBUG: email = chantaletremblay-@hotmail.com
+2023-12-19 21:17:36: DEBUG: password = hdrthrthrth
+2023-12-19 21:17:36: DEBUG: Registrar::register(), username = tyrhtrhtyhh
+2023-12-19 21:17:36: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 117
+    [webauthnId] => c28506bfa8d3f7edb3e4d4532a6c6590
+    [username] => tyrhtrhtyhh
+    [password] => $2y$10$.7bxTK7Tm0fhsFBJMzW0beUjS8H.MLUhgiWkit9Iq8jX7Avopjrcq
+    [email] => chantaletremblay-@hotmail.com
+    [webauthnkeys] => []
+)
+
+2023-12-19 21:17:36: DEBUG: Registrar::register(), webauthn = true
+2023-12-19 21:17:36: DEBUG: Registrar::register(), j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[114,95,126,98,57,36,249,221,182,238,171,157,200,139,172,213],"user":{"displayName":"tyrhtrhtyhh","name":"tyrhtrhtyhh","id":[99,50,56,53,48,54,98,102,97,56,100,51,102,55,101,100,98,51,101,52,100,52,53,51,50,97,54,99,54,53,57,48]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"cl9-Yjkk-d227qudyIus1Q"}
+)
+
+2023-12-19 21:26:05: DEBUG: username = dfgbdbfdgb
+2023-12-19 21:26:05: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-19 21:26:05: DEBUG: password = fg fcg fcg
+2023-12-19 21:26:05: DEBUG: Registrar::register(), username = dfgbdbfdgb
+2023-12-19 21:26:05: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 118
+    [webauthnId] => d6d7e1f0cc1613e662850df0f7dfbf1a
+    [username] => dfgbdbfdgb
+    [password] => $2y$10$Oj2rxTa40Kvys8.G2lhoXObzAk/XKGM5kAlu5G9/4CbjPrU1AG86W
+    [email] => alauzon@serveursdupeuple.net
+    [webauthnkeys] => []
+)
+
+2023-12-19 21:26:05: DEBUG: Registrar::register(), webauthn = true
+2023-12-19 21:26:05: DEBUG: Registrar::register(), j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[103,247,169,213,237,248,145,92,39,220,87,255,153,227,120,93],"user":{"displayName":"dfgbdbfdgb","name":"dfgbdbfdgb","id":[100,54,100,55,101,49,102,48,99,99,49,54,49,51,101,54,54,50,56,53,48,100,102,48,102,55,100,102,98,102,49,97]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"Z_ep1e34kVwn3Ff_meN4XQ"}
+)
+
+2023-12-19 21:27:41: DEBUG: username = vfdvdfvdfv
+2023-12-19 21:27:41: DEBUG: email = test2@alainlauzon.com
+2023-12-19 21:27:41: DEBUG: password = dfvdfvdfv
+2023-12-19 21:27:41: DEBUG: Registrar::register(), username = vfdvdfvdfv
+2023-12-19 21:27:41: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 119
+    [webauthnId] => 022dce78f283575ad1a54bc8ad7878cc
+    [username] => vfdvdfvdfv
+    [password] => $2y$10$1lMsZb6SV/pJACXNwfzEwuoqk4ukINOv/hR6dHdZMifsRdJr/n97S
+    [email] => test2@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-19 21:27:41: DEBUG: Registrar::register(), webauthn = true
+2023-12-19 21:27:41: DEBUG: Registrar::register(), j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[53,166,233,215,242,150,67,11,224,134,183,118,170,75,124,196],"user":{"displayName":"vfdvdfvdfv","name":"vfdvdfvdfv","id":[48,50,50,100,99,101,55,56,102,50,56,51,53,55,53,97,100,49,97,53,52,98,99,56,97,100,55,56,55,56,99,99]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"Nabp1_KWQwvghrd2qkt8xA"}
+)
+
+2023-12-19 21:29:12: DEBUG: username = thgrhhrhgf
+2023-12-19 21:29:12: DEBUG: email = test2@alainlauzon.com
+2023-12-19 21:29:12: DEBUG: password = zvfdfvdfv
+2023-12-19 21:29:12: DEBUG: Registrar::register(), username = thgrhhrhgf
+2023-12-19 21:29:12: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 120
+    [webauthnId] => babffd1a729c4e52ed749411e80cdffc
+    [username] => thgrhhrhgf
+    [password] => $2y$10$oygit4wwniehB2QJ52fQFeYnjHRFPIj1ILUEZjd.Df68u6tm0Y3w2
+    [email] => test2@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-19 21:29:12: DEBUG: Registrar::register(), webauthn = true
+2023-12-19 21:29:12: DEBUG: Registrar::register(), j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[204,238,214,9,136,125,178,0,112,163,0,197,84,85,140,115],"user":{"displayName":"thgrhhrhgf","name":"thgrhhrhgf","id":[98,97,98,102,102,100,49,97,55,50,57,99,52,101,53,50,101,100,55,52,57,52,49,49,101,56,48,99,100,102,102,99]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"zO7WCYh9sgBwowDFVFWMcw"}
+)
+
+2023-12-19 21:29:51: DEBUG: username = dfgbdfbfgbfgb
+2023-12-19 21:29:51: DEBUG: email = test2@alainlauzon.com
+2023-12-19 21:29:51: DEBUG: password = fgbfgb
+2023-12-19 21:29:51: DEBUG: Registrar::register(), username = dfgbdfbfgbfgb
+2023-12-19 21:29:52: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 121
+    [webauthnId] => 55c970da2997d2c8d0ed279da6a6895f
+    [username] => dfgbdfbfgbfgb
+    [password] => $2y$10$8cbDoQzil/Whl7rSQ98w7ugMi3b3pOTpkjTSd970DxTirh0bWELAm
+    [email] => test2@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-19 21:29:52: DEBUG: Registrar::register(), webauthn = true
+2023-12-19 21:29:52: DEBUG: Registrar::register(), j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[95,215,134,117,125,11,155,194,155,106,28,185,18,139,54,131],"user":{"displayName":"dfgbdfbfgbfgb","name":"dfgbdfbfgbfgb","id":[53,53,99,57,55,48,100,97,50,57,57,55,100,50,99,56,100,48,101,100,50,55,57,100,97,54,97,54,56,57,53,102]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"X9eGdX0Lm8Kbahy5Eos2gw"}
+)
+
+2023-12-19 21:29:56: DEBUG: Session is not valid.
+2023-12-20 01:05:28: DEBUG: Session is not valid.
+2023-12-20 01:05:30: DEBUG: Session is not valid.
+2023-12-20 01:06:03: DEBUG: Session is not valid.
+2023-12-20 01:08:20: DEBUG: Session is not valid.
+2023-12-20 01:08:24: DEBUG: Session is not valid.
+2023-12-20 01:23:41: DEBUG: Session is not valid.
+2023-12-20 01:23:43: DEBUG: Session is not valid.
+2023-12-20 01:23:45: DEBUG: Session is not valid.
+2023-12-20 01:35:26: DEBUG: Session is not valid.
+2023-12-20 01:36:10: DEBUG: Session is not valid.
+2023-12-20 01:37:50: DEBUG: Session is not valid.
+2023-12-20 01:37:55: DEBUG: Session is not valid.
+2023-12-20 01:38:21: DEBUG: Session is not valid.
+2023-12-20 01:44:19: DEBUG: Session is not valid.
+2023-12-20 01:44:38: DEBUG: Session is not valid.
+2023-12-20 01:46:16: DEBUG: Session is not valid.
+2023-12-20 01:47:15: DEBUG: Session is not valid.
+2023-12-20 01:48:28: DEBUG: Session is not valid.
+2023-12-20 01:49:24: DEBUG: Session is not valid.
+2023-12-20 01:50:30: DEBUG: Session is not valid.
+2023-12-20 01:51:32: DEBUG: Session is not valid.
+2023-12-20 01:52:36: DEBUG: Session is not valid.
+2023-12-20 01:54:16: DEBUG: Session is not valid.
+2023-12-20 01:56:53: DEBUG: Session is not valid.
+2023-12-20 01:56:53: DEBUG: Authenticator::login(), j = 
+2023-12-20 01:57:12: DEBUG: Session is not valid.
+2023-12-20 01:57:39: DEBUG: Authenticator::login(), j = 
+2023-12-20 01:57:56: DEBUG: Session is not valid.
+2023-12-20 01:58:00: DEBUG: Authenticator::login(), j = 
+2023-12-20 01:59:11: DEBUG: Session is not valid.
+2023-12-20 01:59:11: DEBUG: Authenticator::login(), j = 
+2023-12-20 01:59:19: DEBUG: Session is not valid.
+2023-12-20 01:59:19: DEBUG: Authenticator::login(), j = 
+2023-12-20 02:01:20: DEBUG: Session is not valid.
+2023-12-20 02:01:24: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou mot de passe. Essayez à nouveau avec les bons paramètres.
+    [redirect] => /
+)
+
+2023-12-20 02:01:52: DEBUG: Session is not valid.
+2023-12-20 02:02:14: DEBUG: Session is not valid.
+2023-12-20 02:02:26: DEBUG: Session is not valid.
+2023-12-20 02:06:17: DEBUG: Session is not valid.
+2023-12-20 02:09:00: DEBUG: Session is not valid.
+2023-12-20 02:09:45: DEBUG: Session is not valid.
+2023-12-20 02:10:00: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-20 02:10:32: DEBUG: Session is valid,
+2023-12-20 02:11:26: DEBUG: Session is valid,
+2023-12-20 02:12:29: DEBUG: Session is valid,
+2023-12-20 02:13:33: DEBUG: Session is valid,
+2023-12-20 02:14:45: DEBUG: Session is valid,
+2023-12-20 02:15:55: DEBUG: Session is valid,
+2023-12-20 02:19:17: DEBUG: Session is valid,
+2023-12-20 02:19:35: DEBUG: Session is valid,
+2023-12-20 02:19:43: DEBUG: Session is not valid.
+2023-12-20 02:20:25: DEBUG: username = Alain Lauzon 2FA
+2023-12-20 02:20:25: DEBUG: email = alauzon@serveursdupeuple.net
+2023-12-20 02:20:25: DEBUG: password = Alain Lauzon 2FA
+2023-12-20 02:20:25: DEBUG: Registrar::register(), username = Alain Lauzon 2FA
+2023-12-20 02:20:25: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 122
+    [webauthnId] => 6e2098a629fa01dee01a6fc334ce6e07
+    [username] => Alain Lauzon 2FA
+    [password] => $2y$10$1b.LnxE400Kswyi1X.vUley/jKwr/1ycIs17Pb/7ZIq.3UxQwO3lC
+    [email] => alauzon@serveursdupeuple.net
+    [webauthnkeys] => []
+)
+
+2023-12-20 02:20:25: DEBUG: Registrar::register(), webauthn = true
+2023-12-20 02:20:25: DEBUG: Registrar::register(), j = Array
+(
+    [challenge] => {"publicKey":{"challenge":[50,172,99,8,186,182,50,34,75,15,123,127,79,76,25,150],"user":{"displayName":"Alain Lauzon 2FA","name":"Alain Lauzon 2FA","id":[54,101,50,48,57,56,97,54,50,57,102,97,48,49,100,101,101,48,49,97,54,102,99,51,51,52,99,101,54,101,48,55]},"rp":{"id":"boite.lndo.site","name":"boite.lndo.site"},"pubKeyCredParams":[{"alg":-7,"type":"public-key"},{"alg":-257,"type":"public-key"}],"authenticatorSelection":{"authenticatorAttachment":"cross-platform","requireResidentKey":false,"userVerification":"discouraged"},"attestation":null,"timeout":6000000,"excludeCredentials":[],"extensions":{"exts":true}},"b64challenge":"MqxjCLq2MiJLD3t_T0wZlg"}
+)
+
+2023-12-20 02:20:30: DEBUG: Session is not valid.
+2023-12-20 02:20:52: DEBUG: Session is not valid.
+2023-12-20 02:20:52: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[32,99,147,40,24,24,211,236,246,27,69,83,192,175,75,236],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 02:21:03: DEBUG: Session is not valid.
+2023-12-20 02:21:07: DEBUG: Session is not valid.
+2023-12-20 02:21:07: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[11,102,16,14,12,70,74,14,6,108,204,140,218,107,72,7],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 02:23:55: DEBUG: Session is not valid.
+2023-12-20 02:28:09: DEBUG: Session is not valid.
+2023-12-20 02:28:12: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[197,10,29,57,48,192,65,43,241,61,50,97,6,225,186,56],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 02:29:48: DEBUG: Session is not valid.
+2023-12-20 02:29:51: DEBUG: Session is not valid.
+2023-12-20 02:29:54: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[95,47,248,235,18,40,131,84,232,127,42,65,18,95,134,14],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:15:49: DEBUG: Session is not valid.
+2023-12-20 19:15:53: DEBUG: Session is not valid.
+2023-12-20 19:15:57: DEBUG: Session is not valid.
+2023-12-20 19:16:00: DEBUG: Session is not valid.
+2023-12-20 19:16:00: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[202,230,47,104,237,75,175,167,164,173,43,24,150,54,29,42],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:16:05: DEBUG: Session is not valid.
+2023-12-20 19:16:51: DEBUG: Session is not valid.
+2023-12-20 19:16:51: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[149,148,58,228,163,141,188,126,164,15,53,232,176,213,14,60],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:16:54: DEBUG: Session is not valid.
+2023-12-20 19:36:37: DEBUG: Session is not valid.
+2023-12-20 19:36:37: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[170,160,142,70,240,153,151,140,254,25,131,217,228,229,116,182],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:45:22: DEBUG: Session is not valid.
+2023-12-20 19:45:24: DEBUG: Session is not valid.
+2023-12-20 19:45:24: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[251,144,156,93,225,45,18,198,220,160,150,122,69,231,192,145],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:45:45: DEBUG: Session is valid,
+2023-12-20 19:45:47: DEBUG: Session is not valid.
+2023-12-20 19:45:49: DEBUG: Session is not valid.
+2023-12-20 19:45:49: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[249,186,41,120,62,92,74,127,254,165,151,93,238,196,62,4],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:45:52: DEBUG: Session is valid,
+2023-12-20 19:46:34: DEBUG: Session is not valid.
+2023-12-20 19:46:41: DEBUG: Session is not valid.
+2023-12-20 19:46:41: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[45,56,165,17,132,128,181,16,74,114,154,45,115,189,179,254],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:46:45: DEBUG: Session is valid,
+2023-12-20 19:47:39: DEBUG: Session is valid,
+2023-12-20 19:47:52: DEBUG: Session is not valid.
+2023-12-20 19:47:52: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[201,171,97,29,192,215,189,172,136,56,12,98,184,187,57,252],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:48:05: DEBUG: Session is valid,
+2023-12-20 19:49:26: DEBUG: Session is valid,
+2023-12-20 19:49:36: DEBUG: Session is valid,
+2023-12-20 19:49:46: DEBUG: Session is valid,
+2023-12-20 19:50:04: DEBUG: Session is valid,
+2023-12-20 19:50:10: DEBUG: Session is not valid.
+2023-12-20 19:50:13: DEBUG: Session is not valid.
+2023-12-20 19:50:13: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[6,25,65,9,133,252,110,169,239,41,89,234,163,39,49,185],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:50:18: DEBUG: Session is valid,
+2023-12-20 19:52:56: DEBUG: Session is valid,
+2023-12-20 19:54:33: DEBUG: Session is valid,
+2023-12-20 19:54:35: DEBUG: Session is not valid.
+2023-12-20 19:54:35: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[163,242,203,44,141,114,144,206,102,113,91,53,228,170,22,252],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:54:38: DEBUG: Session is valid,
+2023-12-20 19:54:48: DEBUG: Session is valid,
+2023-12-20 19:55:43: DEBUG: Session is valid,
+2023-12-20 19:55:45: DEBUG: Session is not valid.
+2023-12-20 19:55:45: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[65,167,226,234,171,227,12,15,73,191,171,0,92,204,72,146],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 19:55:51: DEBUG: Session is valid,
+2023-12-20 19:55:51: DEBUG: Session is valid,
+2023-12-20 20:04:08: DEBUG: Session is valid,
+2023-12-20 20:04:11: DEBUG: Session is not valid.
+2023-12-20 20:04:11: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[190,83,63,231,6,63,153,246,16,178,128,167,123,114,240,54],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:04:15: DEBUG: Session is valid,
+2023-12-20 20:04:24: DEBUG: Session is valid,
+2023-12-20 20:05:28: DEBUG: Session is valid,
+2023-12-20 20:05:35: DEBUG: Session is valid,
+2023-12-20 20:05:39: DEBUG: Session is not valid.
+2023-12-20 20:05:39: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[231,116,113,207,15,155,33,183,171,112,49,240,115,209,4,76],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:05:43: DEBUG: Session is valid,
+2023-12-20 20:06:10: DEBUG: Session is valid,
+2023-12-20 20:06:17: DEBUG: Session is valid,
+2023-12-20 20:06:24: DEBUG: Session is not valid.
+2023-12-20 20:06:27: DEBUG: Session is not valid.
+2023-12-20 20:06:27: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[47,171,206,132,219,51,138,128,211,203,211,33,11,70,10,33],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:06:30: DEBUG: Session is valid,
+2023-12-20 20:06:40: DEBUG: Session is valid,
+2023-12-20 20:09:14: DEBUG: Session is valid,
+2023-12-20 20:09:44: DEBUG: Session is not valid.
+2023-12-20 20:09:45: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[55,210,42,73,167,199,181,234,121,94,127,192,137,142,144,120],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:09:47: DEBUG: Session is valid,
+2023-12-20 20:10:03: DEBUG: Session is valid,
+2023-12-20 20:10:08: DEBUG: Session is not valid.
+2023-12-20 20:10:08: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[61,90,141,115,42,130,203,130,143,144,12,152,217,75,215,231],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:10:10: DEBUG: Session is valid,
+2023-12-20 20:10:34: DEBUG: Session is valid,
+2023-12-20 20:15:14: DEBUG: Session is not valid.
+2023-12-20 20:15:21: DEBUG: Session is not valid.
+2023-12-20 20:15:21: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[65,39,151,224,163,105,241,148,97,44,141,6,119,81,74,55],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:15:25: DEBUG: Session is not valid.
+2023-12-20 20:15:37: DEBUG: Session is not valid.
+2023-12-20 20:15:49: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[87,215,177,190,254,111,253,84,30,237,148,141,186,150,20,146],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:18:09: DEBUG: Session is not valid.
+2023-12-20 20:18:20: DEBUG: Session is not valid.
+2023-12-20 20:18:20: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[19,37,251,107,232,45,135,231,91,23,250,208,215,243,1,25],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:18:23: DEBUG: Session is not valid.
+2023-12-20 20:18:33: DEBUG: Session is not valid.
+2023-12-20 20:18:33: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[29,41,209,101,246,64,39,0,66,90,23,131,74,48,122,109],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:18:34: DEBUG: Session is not valid.
+2023-12-20 20:19:06: DEBUG: Session is not valid.
+2023-12-20 20:19:06: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[19,51,72,252,184,132,149,227,181,199,205,182,8,191,6,7],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:19:13: DEBUG: Session is not valid.
+2023-12-20 20:19:42: DEBUG: Session is not valid.
+2023-12-20 20:19:42: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[23,19,137,82,126,245,213,206,93,7,218,192,26,192,209,117],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:19:52: DEBUG: Session is not valid.
+2023-12-20 20:20:30: DEBUG: Session is not valid.
+2023-12-20 20:22:54: DEBUG: Session is not valid.
+2023-12-20 20:22:54: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[128,79,146,5,167,227,48,243,8,64,126,234,157,110,110,222],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:23:01: DEBUG: Session is not valid.
+2023-12-20 20:23:02: DEBUG: Session is not valid.
+2023-12-20 20:23:59: DEBUG: Session is not valid.
+2023-12-20 20:23:59: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[45,218,132,164,176,66,143,204,47,249,236,150,63,145,245,196],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:24:06: DEBUG: Session is not valid.
+2023-12-20 20:24:06: DEBUG: Session is not valid.
+2023-12-20 20:25:19: DEBUG: Session is not valid.
+2023-12-20 20:25:21: DEBUG: Session is not valid.
+2023-12-20 20:25:21: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[34,4,204,201,3,184,201,39,111,230,57,69,52,147,254,54],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:25:27: DEBUG: Session is not valid.
+2023-12-20 20:25:28: DEBUG: Session is not valid.
+2023-12-20 20:26:56: DEBUG: Session is not valid.
+2023-12-20 20:26:57: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[11,92,32,136,79,185,81,11,109,92,254,185,174,61,16,208],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:27:07: DEBUG: Session is not valid.
+2023-12-20 20:27:07: DEBUG: Session is not valid.
+2023-12-20 20:27:51: DEBUG: Session is not valid.
+2023-12-20 20:27:54: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[204,37,249,186,119,190,32,142,88,111,91,81,249,133,146,107],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:27:54: DEBUG: Session is not valid.
+2023-12-20 20:27:59: DEBUG: Session is not valid.
+2023-12-20 20:27:59: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[176,218,227,217,139,209,19,181,219,150,165,27,104,55,242,117],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:28:02: DEBUG: Session is not valid.
+2023-12-20 20:28:03: DEBUG: Session is not valid.
+2023-12-20 20:29:13: DEBUG: Session is not valid.
+2023-12-20 20:29:13: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[120,193,238,19,251,42,74,163,175,21,54,231,92,48,4,33],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:29:20: DEBUG: Session is not valid.
+2023-12-20 20:29:59: DEBUG: Session is not valid.
+2023-12-20 20:30:03: DEBUG: Session is not valid.
+2023-12-20 20:30:04: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[51,136,221,218,114,123,56,100,171,105,79,62,50,232,131,27],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:30:09: DEBUG: Session is not valid.
+2023-12-20 20:30:17: DEBUG: Session is not valid.
+2023-12-20 20:30:28: DEBUG: Session is not valid.
+2023-12-20 20:30:47: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[153,97,120,44,204,69,156,17,247,73,86,131,240,23,213,230],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:30:47: DEBUG: Session is not valid.
+2023-12-20 20:34:33: DEBUG: Session is not valid.
+2023-12-20 20:34:47: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[228,6,168,133,146,109,29,55,129,159,250,235,18,120,153,25],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:35:36: DEBUG: Session is not valid.
+2023-12-20 20:35:38: DEBUG: Session is not valid.
+2023-12-20 20:35:38: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[79,72,30,11,46,147,32,171,193,158,217,147,1,227,105,83],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:35:38: DEBUG: Session is not valid.
+2023-12-20 20:36:52: DEBUG: Session is not valid.
+2023-12-20 20:36:52: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[135,162,234,111,228,150,65,232,118,56,127,54,139,206,175,209],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:36:52: DEBUG: Session is not valid.
+2023-12-20 20:36:56: DEBUG: Session is not valid.
+2023-12-20 20:36:56: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[9,88,5,85,135,75,34,119,168,2,192,67,51,98,38,116],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:36:56: DEBUG: Session is not valid.
+2023-12-20 20:37:10: DEBUG: Session is not valid.
+2023-12-20 20:43:40: DEBUG: Session is not valid.
+2023-12-20 20:43:49: DEBUG: Session is not valid.
+2023-12-20 20:43:51: DEBUG: Session is not valid.
+2023-12-20 20:43:51: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[45,49,221,157,254,46,21,204,240,99,21,17,57,40,192,165],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:43:55: DEBUG: Session is not valid.
+2023-12-20 20:43:55: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-20 20:43:55: DEBUG: Session is valid,
+2023-12-20 20:44:44: DEBUG: Session is valid,
+2023-12-20 20:44:46: DEBUG: Session is valid,
+2023-12-20 20:44:48: DEBUG: Session is not valid.
+2023-12-20 20:44:48: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[244,61,62,197,141,182,12,10,250,248,214,4,164,41,146,127],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:44:52: DEBUG: Session is not valid.
+2023-12-20 20:44:52: DEBUG: Session is not valid.
+2023-12-20 20:45:33: DEBUG: Session is not valid.
+2023-12-20 20:45:33: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[235,117,56,81,20,149,136,174,173,147,188,198,68,84,119,226],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-20 20:45:37: DEBUG: Session is not valid.
+2023-12-20 20:45:37: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-20 20:45:37: DEBUG: Session is valid,
+2023-12-21 01:07:43: DEBUG: Session is valid,
+2023-12-21 01:07:45: DEBUG: Session is not valid.
+2023-12-21 01:07:45: DEBUG: Session is not valid.
+2023-12-21 01:08:34: DEBUG: Session is not valid.
+2023-12-21 01:08:58: DEBUG: Session is not valid.
+2023-12-21 01:09:48: DEBUG: Session is not valid.
+2023-12-21 01:10:01: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[23,183,247,137,176,149,194,49,184,95,152,227,243,14,97,253],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-21 01:10:01: DEBUG: Session is not valid.
+2023-12-21 01:10:10: DEBUG: Session is not valid.
+2023-12-21 01:10:10: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[159,245,27,56,37,7,145,131,86,113,1,24,213,160,14,56],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-21 01:10:14: DEBUG: Session is not valid.
+2023-12-21 01:10:14: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-21 01:10:14: DEBUG: Session is valid,
+2023-12-21 01:10:22: DEBUG: Session is valid,
+2023-12-21 01:10:36: DEBUG: Session is not valid.
+2023-12-21 01:10:36: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[139,75,73,223,211,155,228,105,125,58,145,211,107,163,232,86],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-21 01:10:40: DEBUG: Session is not valid.
+2023-12-21 01:10:40: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-21 01:10:40: DEBUG: Session is valid,
+2023-12-21 01:11:00: DEBUG: Session is valid,
+2023-12-21 01:11:13: DEBUG: Session is not valid.
+2023-12-21 01:11:13: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[100,40,209,50,159,203,245,140,77,84,110,241,236,153,83,99],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-21 01:11:19: DEBUG: Session is not valid.
+2023-12-21 01:11:30: DEBUG: Session is not valid.
+2023-12-21 01:11:33: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[24,64,222,242,75,201,126,131,115,182,103,76,232,151,227,193],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-21 01:11:33: DEBUG: Session is not valid.
+2023-12-21 01:11:59: DEBUG: Session is not valid.
+2023-12-21 01:12:03: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[186,156,108,8,97,159,6,80,27,133,209,36,252,147,110,65],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-21 01:12:03: DEBUG: Session is not valid.
+2023-12-21 01:12:10: DEBUG: Session is not valid.
+2023-12-21 01:13:38: DEBUG: Session is not valid.
+2023-12-21 01:13:43: DEBUG: Session is not valid.
+2023-12-21 01:14:08: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[236,241,44,131,97,251,170,110,27,219,231,207,224,247,15,175],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-21 01:14:08: DEBUG: Session is not valid.
+2023-12-21 01:14:13: DEBUG: Session is not valid.
+2023-12-21 01:14:13: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[132,204,29,254,227,58,70,249,30,199,114,112,118,193,170,155],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-21 01:14:17: DEBUG: Session is not valid.
+2023-12-21 01:14:17: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-21 01:14:17: DEBUG: Session is valid,
+2023-12-21 01:14:22: DEBUG: Session is valid,
+2023-12-21 01:14:37: DEBUG: Session is not valid.
+2023-12-21 01:14:37: DEBUG: Session is not valid.
+2023-12-21 01:17:05: DEBUG: Session is not valid.
+2023-12-21 01:17:05: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[252,18,174,2,54,255,84,41,142,144,48,181,238,61,128,71],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-21 01:17:07: DEBUG: Session is not valid.
+2023-12-21 01:17:16: DEBUG: Session is not valid.
+2023-12-21 01:17:16: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:17:27: DEBUG: Session is not valid.
+2023-12-21 01:17:32: DEBUG: Session is not valid.
+2023-12-21 01:17:32: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:17:45: DEBUG: Session is not valid.
+2023-12-21 01:17:51: DEBUG: Session is not valid.
+2023-12-21 01:17:51: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:18:59: DEBUG: Session is not valid.
+2023-12-21 01:19:02: DEBUG: Session is not valid.
+2023-12-21 01:19:03: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:19:06: DEBUG: Session is not valid.
+2023-12-21 01:19:10: DEBUG: Session is not valid.
+2023-12-21 01:19:11: DEBUG: Session is not valid.
+2023-12-21 01:19:16: DEBUG: Session is not valid.
+2023-12-21 01:19:16: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:19:25: DEBUG: Session is not valid.
+2023-12-21 01:19:41: DEBUG: Session is not valid.
+2023-12-21 01:19:43: DEBUG: Session is not valid.
+2023-12-21 01:19:48: DEBUG: Session is not valid.
+2023-12-21 01:19:49: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:19:51: DEBUG: Session is not valid.
+2023-12-21 01:21:03: DEBUG: Session is not valid.
+2023-12-21 01:21:03: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:22:19: DEBUG: Session is not valid.
+2023-12-21 01:22:22: DEBUG: Session is not valid.
+2023-12-21 01:22:22: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:22:32: DEBUG: Session is not valid.
+2023-12-21 01:23:11: DEBUG: Session is not valid.
+2023-12-21 01:23:11: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:23:33: DEBUG: Session is not valid.
+2023-12-21 01:23:34: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:30:07: DEBUG: Session is not valid.
+2023-12-21 01:30:07: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:30:13: DEBUG: Session is not valid.
+2023-12-21 01:30:13: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:30:22: DEBUG: Session is not valid.
+2023-12-21 01:30:22: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:31:29: DEBUG: Session is not valid.
+2023-12-21 01:31:29: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:31:30: DEBUG: Session is not valid.
+2023-12-21 01:31:31: DEBUG: Session is not valid.
+2023-12-21 01:31:35: DEBUG: Session is not valid.
+2023-12-21 01:31:35: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:31:35: DEBUG: Session is not valid.
+2023-12-21 01:32:03: DEBUG: Session is not valid.
+2023-12-21 01:32:03: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 01:32:03: DEBUG: Session is not valid.
+2023-12-21 01:32:12: DEBUG: Session is not valid.
+2023-12-21 01:32:12: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[138,148,197,151,0,62,242,127,4,58,146,229,97,188,72,242],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[89,222,91,219,232,233,74,26,20,135,93,55,58,7,166,9,17,102,240,99,228,153,167,173,245,83,183,219,84,80,170,242,248,13,117,135,1,73,22,190,218,220,163,117,213,19,254,130,141,42,119,212,109,49,95,142,8,96,212,193,221,113,46,140]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-21 01:32:16: DEBUG: Session is not valid.
+2023-12-21 01:32:16: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-21 01:32:22: DEBUG: Session is valid,
+2023-12-21 04:36:09: DEBUG: Session is not valid.
+2023-12-21 17:47:00: DEBUG: Session is valid,
+2023-12-21 17:47:02: DEBUG: Session is not valid.
+2023-12-21 17:47:02: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 17:47:02: DEBUG: Session is not valid.
+2023-12-21 19:03:22: DEBUG: Session is not valid.
+2023-12-21 19:03:31: DEBUG: Session is not valid.
+2023-12-21 19:03:31: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 19:03:31: DEBUG: Session is not valid.
+2023-12-21 19:03:43: DEBUG: Session is not valid.
+2023-12-21 19:03:57: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 19:03:57: DEBUG: Session is not valid.
+2023-12-21 19:05:45: DEBUG: username = dsfdsfdsf
+2023-12-21 19:05:45: DEBUG: email = chantaletremblay-@hotmail.com
+2023-12-21 19:05:45: DEBUG: password = dsfdsafdsf
+2023-12-21 19:05:45: DEBUG: Registrar::register(), username = dsfdsfdsf
+2023-12-21 19:05:45: DEBUG: Session is not valid.
+2023-12-21 19:09:53: DEBUG: username = asdfasdfasdf
+2023-12-21 19:09:53: DEBUG: email = chantaletremblay57@gmail.com
+2023-12-21 19:09:53: DEBUG: password = asdfasdfasdf
+2023-12-21 19:09:53: DEBUG: Registrar::register(), username = asdfasdfasdf
+2023-12-21 19:09:53: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur
+    [redirect] => /?page=inscription
+)
+
+2023-12-21 19:13:31: DEBUG: username = edfwefwefwef
+2023-12-21 19:13:31: DEBUG: email = chantaletremblay-@hotmail.com
+2023-12-21 19:13:31: DEBUG: password = wefweafwaefwaef
+2023-12-21 19:13:31: DEBUG: Registrar::register(), username = edfwefwefwef
+2023-12-21 19:13:31: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur
+    [redirect] => /?page=inscription
+)
+
+2023-12-21 19:14:11: DEBUG: username = dsfasdfasdf
+2023-12-21 19:14:11: DEBUG: email = chantaletremblay57@gmail.com
+2023-12-21 19:14:11: DEBUG: password = asdfasdfsadf
+2023-12-21 19:14:11: DEBUG: Registrar::register(), username = dsfasdfasdf
+2023-12-21 19:14:17: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 123
+    [webauthnId] => 22faf1035b94b1c792f90d9b72be16a9
+    [username] => dsfasdfasdf
+    [password] => $2y$10$7UvJreRpkoqsDjzIaraqredyOQd5Oc63sASBGT/D2U8z9PsCBwQqC
+    [email] => chantaletremblay57@gmail.com
+    [webauthnkeys] => []
+)
+
+2023-12-21 19:14:17: DEBUG: Registrar::register(), webauthn = false
+2023-12-21 19:14:20: DEBUG: Registrar::register(), j = Array
+(
+    [message] => Bravo, votre compte a bien été créé.
+    [redirect] => /
+)
+
+2023-12-21 19:14:20: DEBUG: Session is not valid.
+2023-12-21 20:23:12: DEBUG: username = fdsafsadfdsaf
+2023-12-21 20:23:12: DEBUG: email = fdsafsadfdsaf@alainlauzon.com
+2023-12-21 20:23:12: DEBUG: password = fdsafsadfdsaf
+2023-12-21 20:23:12: DEBUG: Registrar::register(), username = fdsafsadfdsaf
+2023-12-21 20:23:12: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 124
+    [webauthnId] => 05bebdaefdfc3eb1f3d5758ba6a42eec
+    [username] => fdsafsadfdsaf
+    [password] => $2y$10$8TovlKED6W6iVZzHCf4bNujm0q7jz5pLunilbXCTdfxmTPR.tCSVS
+    [email] => fdsafsadfdsaf@alainlauzon.com
+    [webauthnkeys] => []
+)
+
+2023-12-21 20:23:12: DEBUG: Registrar::register(), webauthn = false
+2023-12-21 20:23:12: DEBUG: Registrar::register(), j = Array
+(
+    [message] => Bravo, votre compte a bien été créé.
+    [redirect] => /
+)
+
+2023-12-21 20:23:12: DEBUG: Session is not valid.
+2023-12-21 20:40:36: DEBUG: username = fdsafsadfdsafe
+2023-12-21 20:40:36: DEBUG: email = fdsafsadfdsafe@a.a
+2023-12-21 20:40:36: DEBUG: password = fdsafsadfdsafe
+2023-12-21 20:40:36: DEBUG: Registrar::register(), username = fdsafsadfdsafe
+2023-12-21 20:40:36: DEBUG: Session is not valid.
+2023-12-21 20:41:30: DEBUG: username = werfawefg
+2023-12-21 20:41:30: DEBUG: email = werfawefg@a.a
+2023-12-21 20:41:30: DEBUG: password = werfawefg
+2023-12-21 20:41:30: DEBUG: Registrar::register(), username = werfawefg
+2023-12-21 20:41:31: DEBUG: Session is not valid.
+2023-12-21 20:42:35: DEBUG: username = radgvfergf
+2023-12-21 20:42:35: DEBUG: email = radgvfergf@a.a
+2023-12-21 20:42:35: DEBUG: password = radgvfergf
+2023-12-21 20:42:35: DEBUG: Registrar::register(), username = radgvfergf
+2023-12-21 20:42:35: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit inclure au moins une lettre majuscule.
+    [redirect] => /?page=inscription
+)
+
+2023-12-21 20:43:07: DEBUG: username = radgvfergf
+2023-12-21 20:43:07: DEBUG: email = radgvfergf@a.a
+2023-12-21 20:43:07: DEBUG: password = radgvfergf
+2023-12-21 20:43:07: DEBUG: Registrar::register(), username = radgvfergf
+2023-12-21 20:43:07: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit inclure au moins une lettre majuscule.
+)
+
+2023-12-21 20:43:14: DEBUG: username = radgvfergf
+2023-12-21 20:43:14: DEBUG: email = radgvfergf@a.a
+2023-12-21 20:43:14: DEBUG: password = radgvfergfA
+2023-12-21 20:43:14: DEBUG: Registrar::register(), username = radgvfergf
+2023-12-21 20:43:14: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un chiffre.
+)
+
+2023-12-21 20:43:28: DEBUG: username = radgvfergf
+2023-12-21 20:43:28: DEBUG: email = radgvfergf@a.a
+2023-12-21 20:43:28: DEBUG: password = radgvfergfA
+2023-12-21 20:43:28: DEBUG: Registrar::register(), username = radgvfergf
+2023-12-21 20:43:36: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un chiffre.
+)
+
+2023-12-21 20:45:00: DEBUG: username = radgvfergf
+2023-12-21 20:45:00: DEBUG: email = radgvfergf@a.a
+2023-12-21 20:45:00: DEBUG: password = radgvfergfA
+2023-12-21 20:45:00: DEBUG: Registrar::register(), username = radgvfergf
+2023-12-21 20:45:03: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un chiffre.
+)
+
+2023-12-21 20:45:21: DEBUG: username = ewfawefewf
+2023-12-21 20:45:21: DEBUG: email = ewfawefewf@a.a
+2023-12-21 20:45:21: DEBUG: password = ewfawefewfF
+2023-12-21 20:45:21: DEBUG: Registrar::register(), username = ewfawefewf
+2023-12-21 20:45:27: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un chiffre.
+)
+
+2023-12-21 20:49:35: DEBUG: username = ewfwef
+2023-12-21 20:49:35: DEBUG: email = ewfwef@a.a
+2023-12-21 20:49:35: DEBUG: password = ewfwef
+2023-12-21 20:49:35: DEBUG: Registrar::register(), username = ewfwef
+2023-12-21 20:49:35: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins 10 caractères.
+)
+
+2023-12-21 20:49:52: DEBUG: username = wregfewrgfretgberthg
+2023-12-21 20:49:52: DEBUG: email = ewfwef@a.a
+2023-12-21 20:49:52: DEBUG: password = wregfewrgfretgberthg
+2023-12-21 20:49:52: DEBUG: Registrar::register(), username = wregfewrgfretgberthg
+2023-12-21 20:49:52: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit inclure au moins une lettre majuscule.
+)
+
+2023-12-21 20:49:57: DEBUG: username = wregfewrgfretgberthg
+2023-12-21 20:49:57: DEBUG: email = ewfwef@a.a
+2023-12-21 20:49:57: DEBUG: password = wregfewrgfretgberthgA
+2023-12-21 20:49:57: DEBUG: Registrar::register(), username = wregfewrgfretgberthg
+2023-12-21 20:49:57: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un chiffre.
+)
+
+2023-12-21 20:50:03: DEBUG: username = wregfewrgfretgberthg
+2023-12-21 20:50:03: DEBUG: email = ewfwef@a.a
+2023-12-21 20:50:03: DEBUG: password = wregfewrgfretgberthgA5
+2023-12-21 20:50:03: DEBUG: Registrar::register(), username = wregfewrgfretgberthg
+2023-12-21 20:50:03: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un caractère spécial.
+)
+
+2023-12-21 20:50:15: DEBUG: username = wregfewrgfretgberthg
+2023-12-21 20:50:15: DEBUG: email = ewfwef@a.a
+2023-12-21 20:50:15: DEBUG: password = ASADSDFFDIUOBUB0-
+2023-12-21 20:50:15: DEBUG: Registrar::register(), username = wregfewrgfretgberthg
+2023-12-21 20:50:15: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit inclure au moins une lettre minuscule.
+)
+
+2023-12-21 20:50:19: DEBUG: username = wregfewrgfretgberthg
+2023-12-21 20:50:19: DEBUG: email = ewfwef@a.a
+2023-12-21 20:50:19: DEBUG: password = ASADSDFFDIUOBUB0-a
+2023-12-21 20:50:19: DEBUG: Registrar::register(), username = wregfewrgfretgberthg
+2023-12-21 20:50:19: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 125
+    [webauthnId] => dc5730359ebffe6ef19bbd0b14c20c35
+    [username] => wregfewrgfretgberthg
+    [password] => $2y$10$2Yo0961W/aRYKiAvPP1aketajIoht1Vq6C.NDnujJ8sKYEoxI/bee
+    [email] => ewfwef@a.a
+    [webauthnkeys] => []
+)
+
+2023-12-21 20:50:19: DEBUG: Registrar::register(), webauthn = false
+2023-12-21 20:50:19: DEBUG: Registrar::register(), j = Array
+(
+    [message] => Bravo, votre compte a bien été créé.
+    [redirect] => /
+)
+
+2023-12-21 20:50:19: DEBUG: Session is not valid.
+2023-12-21 20:51:01: DEBUG: username = BUB0-a
+2023-12-21 20:51:01: DEBUG: email = BUB0-a@a.a
+2023-12-21 20:51:01: DEBUG: password = BUB0-a
+2023-12-21 20:51:01: DEBUG: Registrar::register(), username = BUB0-a
+2023-12-21 20:51:01: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins 10 caractères.
+)
+
+2023-12-21 20:51:42: DEBUG: username = BUB0-a
+2023-12-21 20:51:42: DEBUG: email = BUB0-a@a.a
+2023-12-21 20:51:42: DEBUG: password = BUB0-aBUB0-a
+2023-12-21 20:51:42: DEBUG: Registrar::register(), username = BUB0-a
+2023-12-21 20:51:42: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur
+    [redirect] => /?page=inscription
+)
+
+2023-12-21 20:52:41: DEBUG: username = BUB0-a
+2023-12-21 20:52:41: DEBUG: email = BUB0-a@a.a
+2023-12-21 20:52:41: DEBUG: password = BUB0-aBUB0-a
+2023-12-21 20:52:41: DEBUG: Registrar::register(), username = BUB0-a
+2023-12-21 20:52:41: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur inconnue.
+)
+
+2023-12-21 20:52:43: DEBUG: username = BUB0-a
+2023-12-21 20:52:43: DEBUG: email = BUB0-a@a.a
+2023-12-21 20:52:43: DEBUG: password = BUB0-aBUB0-a
+2023-12-21 20:52:43: DEBUG: Registrar::register(), username = BUB0-a
+2023-12-21 20:52:43: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur inconnue.
+)
+
+2023-12-21 20:52:43: DEBUG: username = BUB0-a
+2023-12-21 20:52:43: DEBUG: email = BUB0-a@a.a
+2023-12-21 20:52:43: DEBUG: password = BUB0-aBUB0-a
+2023-12-21 20:52:43: DEBUG: Registrar::register(), username = BUB0-a
+2023-12-21 20:52:43: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur inconnue.
+)
+
+2023-12-21 20:53:19: DEBUG: username = BUB0-a
+2023-12-21 20:53:19: DEBUG: email = BUB0-a@a.a
+2023-12-21 20:53:19: DEBUG: password = BUB0-aBUB0-a
+2023-12-21 20:53:19: DEBUG: Registrar::register(), username = BUB0-a
+2023-12-21 20:53:19: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur inconnue.
+)
+
+2023-12-21 20:53:29: DEBUG: username = BUB0-a
+2023-12-21 20:53:29: DEBUG: email = BUB0-a@a.a
+2023-12-21 20:53:29: DEBUG: password = BUB0-a
+2023-12-21 20:53:29: DEBUG: Registrar::register(), username = BUB0-a
+2023-12-21 20:53:29: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur inconnue.
+)
+
+2023-12-21 20:54:14: DEBUG: username = BUB0-a
+2023-12-21 20:54:14: DEBUG: email = BUB0-a@a.a
+2023-12-21 20:54:14: DEBUG: password = BUB0-a
+2023-12-21 20:54:14: DEBUG: Registrar::register(), username = BUB0-a
+2023-12-21 20:54:14: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins 10 caractères.
+)
+
+2023-12-21 20:54:22: DEBUG: username = BUB0-a
+2023-12-21 20:54:22: DEBUG: email = BUB0-a@a.a
+2023-12-21 20:54:22: DEBUG: password = BUB0-a      try {       $this->csrfProtector->validateRequest();     } catch (\Exception $e) {       // Simulate wrong username/password if the token does not validate.       $j = [         'message' => "Erreur inconnue.",       ];       $this->logger->logDebug("Authenticator::login(), j = " . print_r($j, TRUE));       header('Content-type: application/json');       echo json_encode($j);       exit;     }
+2023-12-21 20:54:22: DEBUG: Registrar::register(), username = BUB0-a
+2023-12-21 20:54:22: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur inconnue.
+)
+
+2023-12-21 20:56:23: DEBUG: Session is not valid.
+2023-12-21 20:56:56: DEBUG: username = ergfrewgf
+2023-12-21 20:56:56: DEBUG: email = ergfrewgf@a.a
+2023-12-21 20:56:56: DEBUG: password = ergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgf
+2023-12-21 20:56:56: DEBUG: Registrar::register(), username = ergfrewgf
+2023-12-21 20:56:56: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au maximum 254 caractères.
+)
+
+2023-12-21 20:57:03: DEBUG: username = ergfrewgf
+2023-12-21 20:57:03: DEBUG: email = ergfrewgf@a.a
+2023-12-21 20:57:03: DEBUG: password = ergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergfrewgfergf
+2023-12-21 20:57:03: DEBUG: Registrar::register(), username = ergfrewgf
+2023-12-21 20:57:03: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au maximum 254 caractères.
+)
+
+2023-12-21 20:59:31: DEBUG: username = ergfrewgf
+2023-12-21 20:59:31: DEBUG: email = ergfrewgf@a.a
+2023-12-21 20:59:31: DEBUG: password = A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!
+2023-12-21 20:59:31: DEBUG: Registrar::register(), username = ergfrewgf
+2023-12-21 20:59:31: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au maximum 254 caractères.
+)
+
+2023-12-21 20:59:36: DEBUG: username = ergfrewgf
+2023-12-21 20:59:36: DEBUG: email = ergfrewgf@a.a
+2023-12-21 20:59:36: DEBUG: password = A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!Aa!A1a!A1a!A1a!A1a!A1a!A1a!
+2023-12-21 20:59:36: DEBUG: Registrar::register(), username = ergfrewgf
+2023-12-21 20:59:36: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au maximum 254 caractères.
+)
+
+2023-12-21 21:01:20: DEBUG: username = ergfrewgf
+2023-12-21 21:01:20: DEBUG: email = ergfrewgf@a.a
+2023-12-21 21:01:20: DEBUG: password = A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1a!A1aser
+2023-12-21 21:01:20: DEBUG: Registrar::register(), username = ergfrewgf
+2023-12-21 21:01:20: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 126
+    [webauthnId] => 75ab950b6f839a880766f7b5314cffdd
+    [username] => ergfrewgf
+    [password] => $2y$10$.sYKZTVl6MjRE0sfjIUBr.GpH8DNLMiufk2GX5mKRUWkAg6XgNMoy
+    [email] => ergfrewgf@a.a
+    [webauthnkeys] => []
+)
+
+2023-12-21 21:01:20: DEBUG: Registrar::register(), webauthn = false
+2023-12-21 21:01:20: DEBUG: Registrar::register(), j = Array
+(
+    [message] => Bravo, votre compte a bien été créé.
+    [redirect] => /
+)
+
+2023-12-21 21:01:20: DEBUG: Session is not valid.
+2023-12-21 21:04:01: DEBUG: username = fafasdfasdf
+2023-12-21 21:04:01: DEBUG: email = fafasdfasdf@as.as
+2023-12-21 21:04:01: DEBUG: password = A1a!B2b@C3c#D4d$E5e%F6f^G7g&H8h*J9j(K0k)L1l_M2m+N3n=O4o-P5p[Q6q]R7r{S8s}T9t:U0u;V1v'W2w"X3x<Y4y>Z5z|a6A,b7B.c8C/d9D0e1E2f3F4g5G6h7H8i9I0j1J2k3K4l5L6m7M8n9N0o1O2p3P4q5Q6r7R8s9S0t1T2u3U4v5V6w7W8x9X0y1Y2z3Z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9l6m7n8o9l6m7n8o91234
+2023-12-21 21:04:01: DEBUG: Registrar::register(), username = fafasdfasdf
+2023-12-21 21:04:53: DEBUG: Session is not valid.
+2023-12-21 21:05:11: DEBUG: username = ewfwefwef
+2023-12-21 21:05:11: DEBUG: email = ewfwefwef@a.a
+2023-12-21 21:05:11: DEBUG: password = A1a!B2b@C3c#D4d$E5e%F6f^G7g&H8h*J9j(K0k)L1l_M2m+N3n=O4o-P5p[Q6q]R7r{S8s}T9t:U0u;V1v'W2w"X3x<Y4y>Z5z|a6A,b7B.c8C/d9D0e1E2f3F4g5G6h7H8i9I0j1J2k3K4l5L6m7M8n9N0o1O2p3P4q5Q6r7R8s9S0t1T2u3U4v5V6w7W8x9X0y1Y2z3Z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9l6m7n8o9l6m7n8o912345
+2023-12-21 21:05:11: DEBUG: Registrar::register(), username = ewfwefwef
+2023-12-21 21:05:11: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au maximum 254 caractères.
+)
+
+2023-12-21 21:05:16: DEBUG: username = ewfwefwef
+2023-12-21 21:05:16: DEBUG: email = ewfwefwef@a.a
+2023-12-21 21:05:16: DEBUG: password = A1a!B2b@C3c#D4d$E5e%F6f^G7g&H8h*J9j(K0k)L1l_M2m+N3n=O4o-P5p[Q6q]R7r{S8s}T9t:U0u;V1v'W2w"X3x<Y4y>Z5z|a6A,b7B.c8C/d9D0e1E2f3F4g5G6h7H8i9I0j1J2k3K4l5L6m7M8n9N0o1O2p3P4q5Q6r7R8s9S0t1T2u3U4v5V6w7W8x9X0y1Y2z3Z4a5b6c7d8e9f0g12i3j4k5l6m7n8o9l6m7n8o9l6m7n8o912345
+2023-12-21 21:05:16: DEBUG: Registrar::register(), username = ewfwefwef
+2023-12-21 21:05:16: DEBUG: Registrar: user created : Boite\User Object
+(
+    [db:Boite\User:private] => PDO Object
+        (
+        )
+
+    [table_name:Boite\User:private] => users
+    [id] => 127
+    [webauthnId] => 613592309bbcbf5813d968e37741198e
+    [username] => ewfwefwef
+    [password] => $2y$10$wFTpq.iIBUZriKNE4rzA8ePnhv4SmUmOsuU68P.vT5Ey6fMA5wlPG
+    [email] => ewfwefwef@a.a
+    [webauthnkeys] => []
+)
+
+2023-12-21 21:05:16: DEBUG: Registrar::register(), webauthn = false
+2023-12-21 21:05:16: DEBUG: Registrar::register(), j = Array
+(
+    [message] => Bravo, votre compte a bien été créé.
+    [redirect] => /
+)
+
+2023-12-21 21:05:16: DEBUG: Session is not valid.
+2023-12-21 22:30:52: DEBUG: Session is not valid.
+2023-12-21 22:32:36: DEBUG: Session is not valid.
+2023-12-21 22:33:26: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le nom d'usager doit contenir au maximum 50 caractères.
+)
+
+2023-12-21 22:33:35: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins 10 caractères.
+)
+
+2023-12-21 22:33:49: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit inclure au moins une lettre minuscule.
+)
+
+2023-12-21 22:33:53: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit inclure au moins une lettre majuscule.
+)
+
+2023-12-21 22:33:57: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un caractère spécial.
+)
+
+2023-12-21 22:34:04: DEBUG: Session is not valid.
+2023-12-21 22:35:38: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le nom d'usager doit contenir au maximum 49 caractères.
+)
+
+2023-12-21 22:35:48: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins 10 caractères.
+)
+
+2023-12-21 22:35:58: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit inclure au moins une lettre majuscule.
+)
+
+2023-12-21 22:36:01: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un chiffre.
+)
+
+2023-12-21 22:36:04: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un caractère spécial.
+)
+
+2023-12-21 22:36:12: DEBUG: Session is not valid.
+2023-12-21 22:37:54: DEBUG: Session is not valid.
+2023-12-21 22:41:00: DEBUG: Session is not valid.
+2023-12-21 22:47:27: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur inconnue.
+)
+
+2023-12-21 22:47:33: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur inconnue.
+)
+
+2023-12-21 22:47:38: DEBUG: Session is not valid.
+2023-12-21 22:47:58: DEBUG: Registrar: user created : 128.
+2023-12-21 22:47:58: DEBUG: Session is not valid.
+2023-12-21 22:48:17: DEBUG: Session is not valid.
+2023-12-21 22:48:17: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-21 22:48:17: DEBUG: Session is not valid.
+2023-12-21 22:53:42: DEBUG: Session is not valid.
+2023-12-21 22:55:20: DEBUG: Session is not valid.
+2023-12-21 23:03:14: DEBUG: Session is not valid.
+2023-12-21 23:08:47: DEBUG: Session is not valid.
+2023-12-21 23:09:25: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le nom d'usager contient un ou plusieurs caractère interdit&nbsp;: &.
+)
+
+2023-12-21 23:09:47: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le nom d'usager contient un ou plusieurs caractère interdit&nbsp;: ".
+)
+
+2023-12-21 23:09:54: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le nom d'usager contient un ou plusieurs caractère interdit&nbsp;: '.
+)
+
+2023-12-21 23:10:00: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le nom d'usager contient un ou plusieurs caractère interdit&nbsp;: <.
+)
+
+2023-12-21 23:10:04: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le nom d'usager contient un ou plusieurs caractère interdit&nbsp;: >.
+)
+
+2023-12-22 00:25:04: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le nom d'usager contient un ou plusieurs caractère interdit&nbsp;: <, >, &.
+)
+
+2023-12-22 00:25:42: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe contient un ou plusieurs caractère interdit&nbsp;: <, >, &.
+)
+
+2023-12-22 00:57:25: DEBUG: Registrar: user created : 129.
+2023-12-22 00:57:25: DEBUG: Session is not valid.
+2023-12-22 00:57:32: DEBUG: Session is not valid.
+2023-12-22 00:57:32: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-22 00:57:32: DEBUG: Session is not valid.
+2023-12-22 00:57:45: DEBUG: Session is not valid.
+2023-12-22 00:57:45: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-22 00:57:45: DEBUG: Session is valid,
+2023-12-22 00:57:55: DEBUG: Session is valid,
+2023-12-22 00:58:26: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins 10 caractères.
+)
+
+2023-12-22 00:58:58: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe contient un ou plusieurs caractères interdits&nbsp;: &, ', ", <, >.
+)
+
+2023-12-22 01:00:34: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au maximum 254 caractères.
+)
+
+2023-12-22 01:00:39: DEBUG: Registrar: user created : 130.
+2023-12-22 01:00:39: DEBUG: Session is not valid.
+2023-12-22 01:01:08: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit inclure au moins une lettre majuscule.
+)
+
+2023-12-22 01:01:24: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un chiffre.
+)
+
+2023-12-22 01:01:40: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un chiffre.
+)
+
+2023-12-22 01:01:44: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit contenir au moins un caractère spécial.
+)
+
+2023-12-22 01:01:57: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit inclure au moins une lettre minuscule.
+)
+
+2023-12-22 01:02:03: DEBUG: Registrar: user created : 131.
+2023-12-22 01:02:03: DEBUG: Session is not valid.
+2023-12-22 01:02:44: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur inconnue.
+)
+
+2023-12-22 01:03:11: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur inconnue.
+)
+
+2023-12-22 01:03:47: DEBUG: Registrar: user created : 132.
+2023-12-22 01:03:47: DEBUG: Registrar: 2FA active.
+2023-12-22 01:03:50: DEBUG: Session is valid,
+2023-12-22 01:03:59: DEBUG: Session is valid,
+2023-12-22 01:04:32: DEBUG: Registrar: user created : 133.
+2023-12-22 01:04:32: DEBUG: Registrar: 2FA active.
+2023-12-22 01:05:18: DEBUG: Session is valid,
+2023-12-22 01:05:36: DEBUG: Session is valid,
+2023-12-22 01:05:57: DEBUG: Session is not valid.
+2023-12-22 01:05:57: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-22 01:05:57: DEBUG: Session is not valid.
+2023-12-22 01:06:31: DEBUG: Session is not valid.
+2023-12-22 01:06:31: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-22 01:06:31: DEBUG: Session is valid,
+2023-12-22 01:06:37: DEBUG: Session is valid,
+2023-12-22 01:09:32: DEBUG: Registrar: user created : 134.
+2023-12-22 01:09:32: DEBUG: Registrar: 2FA active.
+2023-12-22 01:09:40: DEBUG: Session is valid,
+2023-12-22 01:10:02: DEBUG: Session is valid,
+2023-12-22 01:10:43: DEBUG: Registrar: user created : 135.
+2023-12-22 01:10:43: DEBUG: Registrar: 2FA active.
+2023-12-22 01:11:15: DEBUG: Session is valid,
+2023-12-22 01:14:27: DEBUG: Session is valid,
+2023-12-22 01:16:24: DEBUG: Registrar: user created : 136.
+2023-12-22 01:16:24: DEBUG: Registrar: 2FA active.
+2023-12-22 01:26:06: DEBUG: Session is valid,
+2023-12-22 01:26:23: DEBUG: Registrar: user created : 137.
+2023-12-22 01:26:23: DEBUG: Registrar: 2FA active.
+2023-12-22 01:29:10: DEBUG: Registrar: user created : 138.
+2023-12-22 01:29:10: DEBUG: Registrar: 2FA active.
+2023-12-22 01:44:40: DEBUG: Registrar: user created : 139.
+2023-12-22 01:44:40: DEBUG: Registrar: 2FA active.
+2023-12-22 01:44:52: DEBUG: Session is not valid.
+2023-12-22 01:44:52: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-22 01:46:36: DEBUG: Session is valid,
+2023-12-22 01:47:07: DEBUG: Registrar: user created : 140.
+2023-12-22 01:47:26: DEBUG: Registrar: 2FA active.
+2023-12-22 01:48:32: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Le mot de passe doit inclure au moins une lettre majuscule.
+)
+
+2023-12-22 01:48:38: DEBUG: Registrar: user created : 141.
+2023-12-22 01:48:38: DEBUG: Registrar: 2FA active.
+2023-12-22 01:49:26: DEBUG: Registrar: user created : 143.
+2023-12-22 01:49:26: DEBUG: Registrar: 2FA active.
+2023-12-22 01:49:41: DEBUG: Session is valid,
+2023-12-22 01:49:45: DEBUG: Session is not valid.
+2023-12-22 01:49:45: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Erreur du nom d'usager et/ou du mot de passe. Essayez à nouveau avec les bons identifiants de connexion.
+    [redirect] => /
+)
+
+2023-12-22 01:50:19: DEBUG: Registrar: user created : 144.
+2023-12-22 01:50:19: DEBUG: Registrar: 2FA active.
+2023-12-22 01:50:37: DEBUG: Session is valid,
+2023-12-22 01:50:53: DEBUG: Session is not valid.
+2023-12-22 01:51:27: DEBUG: Session is not valid.
+2023-12-22 01:51:27: DEBUG: Authenticator::login(), j = Array
+(
+    [challenge] => {"challenge":[98,31,58,20,129,200,55,75,183,126,167,133,148,84,63,230],"timeout":6000000,"allowCredentials":[{"type":"public-key","transports":["usb","nfc","ble","internal"],"id":[61,214,195,72,91,125,54,159,193,132,164,64,57,183,197,178,216,28,95,55,183,38,34,228,46,16,100,68,130,4,131,224,139,92,221,34,1,104,143,10,156,155,70,38,52,226,32,37,12,178,59,249,15,54,137,94,49,62,5,209,35,186,160,208]}],"userVerification":"discouraged","extensions":{"txAuthSimple":"Execute order 66"},"rpId":"boite.lndo.site"}
+)
+
+2023-12-22 01:51:30: DEBUG: Session is not valid.
+2023-12-22 01:51:30: DEBUG: Authenticator::login(), j = Array
+(
+    [message] => Bienvenue dans la boîte!
+    [redirect] => /
+)
+
+2023-12-22 02:15:09: DEBUG: Session is valid,
